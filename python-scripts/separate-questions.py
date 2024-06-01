@@ -5,7 +5,7 @@ question_50_set = open("questions/question-exports/50-set.txt", "r").read()
 question_140_set = open("questions/question-exports/140-set.txt", "r").read()
 question_703_set = open("questions/question-exports/703-set.txt", "r").read()
 
-question_50_separated = open("questions/separated-questions/50-set.txt")
+question_50_separated = open("questions/separated-questions/50-set.txt", "a")
 
 
 
@@ -17,6 +17,10 @@ print(question_703_set)
 
 question_50_set_list = question_50_set.split(")(*")
 
+print(question_50_set_list)
+input("akjsdhaskjdhk")
+
 for question in question_50_set_list:
-  print(question)
-  input("next")
+  question_50_separated.write(
+    '{"question" ":' + str(question) + '"},'
+  )
