@@ -7,7 +7,7 @@ question_50_set = open("questions/question-exports/50-set.txt", "r").read()
 question_140_set = open("questions/question-exports/140-set.txt", "r").read()
 question_703_set = open("questions/question-exports/703-set.txt", "r").read()
 
-question_50_object = open("questions/question-objects/50-set.txt", "w")
+question_50_object = open("questions/question-objects/50-set.js", "w")
 
 
 
@@ -27,38 +27,61 @@ question_50_object = open("questions/question-objects/50-set.txt", "w")
 #     '{"question" ":' + str(question) + '"},'
 #   )
 
-import re
 
-import re
+ ############################################################
+# import re
 
-def extract_quiz_data(input_text):
-    quiz_data = []
-    questions = input_text.split(')*')
-    for question_text in questions:
-        if question_text.strip():
-            question_data = {}
-            question, answers = question_text.split('!@#')
-            question_data['question'] = question.strip()
-            options = answers.split(')(*')
-            options_dict = {}
-            answer = None
-            for option in options:
-                if option.startswith('A.'):
-                    options_dict['A'] = option.split('A.')[1].strip()
-                elif option.startswith('B.'):
-                    options_dict['B'] = option.split('B.')[1].strip()
-                elif option.startswith('C.'):
-                    options_dict['C'] = option.split('C.')[1].strip()
-                elif option.startswith('D.'):
-                    options_dict['D'] = option.split('D.')[1].strip()
-                else:
-                    answer = option.strip()
-            question_data['options'] = options_dict
-            question_data['answer'] = answer[0]
-            question_data['answer_explanation'] = answer[1:]
-            quiz_data.append(question_data)
-    return quiz_data
+# import re
 
+# def extract_quiz_data(input_text):
+#     quiz_data = []
+#     questions = input_text.split(')*')
+#     for question_text in questions:
+#         if question_text.strip():
+#             question_data = {}
+#             question, answers = question_text.split('!@#')
+#             question_data['question'] = question.strip()
+#             options = answers.split(')(*')
+#             options_dict = {}
+#             answer = None
+#             for option in options:
+#                 if option.startswith('A.'):
+#                     options_dict['A'] = option.split('A.')[1].strip()
+#                 elif option.startswith('B.'):
+#                     options_dict['B'] = option.split('B.')[1].strip()
+#                 elif option.startswith('C.'):
+#                     options_dict['C'] = option.split('C.')[1].strip()
+#                 elif option.startswith('D.'):
+#                     options_dict['D'] = option.split('D.')[1].strip()
+#                 else:
+#                     answer = option.strip()
+#             question_data['options'] = options_dict
+#             question_data['answer'] = answer[0]
+#             question_data['answer_explanation'] = answer[1:]
+#             quiz_data.append(question_data)
+#     return quiz_data
+
+# print("const quizData = [")
+# for question in quiz_data:
+#     print("  {")
+#     print(f'    "question": "{question["question"]}",')
+#     print("    \"options\": {")
+#     for option, text in question["options"].items():
+#         print(f'      "{option}": "{text}"')
+#     print("    },")
+#     print(f'    "answer": "{question["answer"]}",')
+#     print(f'    "answer_explanation": "{question["answer_explanation"]}"')
+#     print("  },")
+# print("]")
+
+#         quiz_data.append(question_data)
+
+#     return quiz_data
+
+# quiz_data = extract_quiz_data(question_50_set)
+
+
+###########################################################
 
 # # Parse the input text
 # quiz_data = parse_question_and_answers(question_50_set)
@@ -69,18 +92,56 @@ def extract_quiz_data(input_text):
 # print(javascript_object)
 # question_50_object.write(javascript_object)
 
-quiz_data = extract_quiz_data(question_50_set)
+##############################################################
 
+import re
 
-print("const quizData = [")
-for question in quiz_data:
-    print("  {")
-    print(f'    "question": "{question["question"]}",')
-    print("    \"options\": {")
-    for option, text in question["options"].items():
-        print(f'      "{option}": "{text}"')
-    print("    },")
-    print(f'    "answer": "{question["answer"]}",')
-    print(f'    "answer_explanation": "{question["answer_explanation"]}"')
-    print("  },")
-print("]")
+def parse_question_and_answers(text):
+    # Split the text into individual questions
+    questions = text.split(")(*")
+
+    # Initialize an empty list to store the questions and answers
+    quiz_data = []
+
+    for question_text in questions:
+        # Find the answer separator
+        answer_separator_idx = question_text.find("!@#")
+
+        # Extract the question and answer
+        question = question_text[:answer_separator_idx].strip()
+        answer_info = question_text[answer_separator_idx + 3:].strip()
+        print(f"ANSWER INFO: {answer_info}")
+
+        # Find the answer letter and explanation
+        answer_letter_match = re.search(r"\n\s*(\w)\.\s*", answer_info)
+        if answer_info:
+            # answer_letter = answer_letter_match.group(1)
+            answer_explanation = answer_info[2:].strip()
+            answer_letter = answer_info[0]
+        else:
+            answer_letter = "[][][]"
+            answer_explanation = "[][][]"
+
+        # Find the options
+        options = re.findall(r"\n\s*(\w)\.\s*(.*?)\n", question_text)
+
+        # Create a dictionary for the question and answers
+        question_data = {
+            "question": question,
+            "options": dict(options),
+            "answer": answer_letter,
+            "answer_explanation": answer_explanation
+        }
+
+        quiz_data.append(question_data)
+
+    return quiz_data
+
+# Parse the input text
+quiz_data = parse_question_and_answers(question_50_set)
+
+# Convert the quiz data to a JavaScript object
+javascript_object = "const quizData = " + repr(quiz_data) + ";"
+
+# print(javascript_object)
+question_50_object.write(javascript_object)
