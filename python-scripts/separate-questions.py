@@ -113,7 +113,7 @@ def parse_question_and_answers(text):
         print(f"ANSWER INFO: {answer_info}")
 
         # Find the answer letter and explanation
-        answer_letter_match = re.search(r"\n\s*(\w)\.\s*", answer_info)
+        answer_letter_match = re.search(r"\n\s*([A-D])\.\s*", answer_info)
         if answer_info:
             # answer_letter = answer_letter_match.group(1)
             answer_explanation = answer_info[2:].strip()
@@ -123,7 +123,7 @@ def parse_question_and_answers(text):
             answer_explanation = "[][][]"
 
         # Find the options
-        options = re.findall(r"\n\s*(\w)\.\s*(.*?)\n", question_text)
+        options = [(chr(ord('A') + i), option) for i, option in enumerate(re.findall(r"\n\s*\w\.\s*(.*?)(?=\n\s*\w\.|$)", question_text))]
 
         # Create a dictionary for the question and answers
         question_data = {
