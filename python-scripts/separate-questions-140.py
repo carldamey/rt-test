@@ -4,7 +4,7 @@ current_question_number = 1
 question_list = []
 
 question_50_set = open("questions/question-exports/50-set.txt", "r").read()
-question_140_set = re.sub("Your answer was : .\nThe correct answer is : ", "", open("questions/question-exports/140-set.txt", "r").read())
+question_140_set = open("questions/question-exports/140-set.txt", "r").read()
 question_703_set = open("questions/question-exports/703-set.txt", "r").read()
 
 question_140_object = open("questions/question-objects/140-set.js", "w")
