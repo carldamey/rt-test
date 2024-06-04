@@ -1,7 +1,7 @@
 const quizData = [
 	{
 		question:
-			"The medication prostacyclin is used for which of the following purposes?\n\nA. decrease pulmonary hypertension\n B. bronchodilate large airways\n C. decrease systemic vascular resistance (SVR)\n D. improve cardiac contractility",
+			"The medication prostacyclin is used for which of the following purposes?",
 		options: {
 			A: "decrease pulmonary hypertension",
 			B: "bronchodilate large airways",
@@ -13,7 +13,7 @@ const quizData = [
 	},
 	{
 		question:
-			"The respiratory therapist obtains the following blood gas data on a patient breathing spontaneously on room air:\npH 7.35 PaCO2 45 torr PaO2 50 torr HCO3- 27 mEq/L BE +2 mEq/L\nThe therapist could accurately estimate the patient's SaO2 to be which of the following?\n\n A. 75%\n B. 80%\n C. 85%\n D. 90%",
+			"The respiratory therapist obtains the following blood gas data on a patient breathing spontaneously on room air:\npH 7.35 PaCO2 45 torr PaO2 50 torr HCO3- 27 mEq/L BE +2 mEq/L\nThe therapist could accurately estimate the patient's SaO2 to be which of the following?",
 		options: {A: "75%", B: "80%", C: "85%", D: "90%"},
 		answer: "B",
 		answer_explanation:
@@ -21,7 +21,7 @@ const quizData = [
 	},
 	{
 		question:
-			"After instructing a patient and demonstrating the proper use of a metered dose inhaler with a valved holding chamber, the patient performs the maneuver by placing the chamber in his mouth, actuating the cannister, and then exhaling prior to performing inhalation. The respiratory therapist should\n\n A. document that the education was effective.\n B. re-instruct the patient to inhale immediately after actuation of the cannister.\n C. instruct the patient to inhale while depressing the cannister.\n D. remove the cannister and have the patient reattempt the dose delivery.",
+			"After instructing a patient and demonstrating the proper use of a metered dose inhaler with a valved holding chamber, the patient performs the maneuver by placing the chamber in his mouth, actuating the cannister, and then exhaling prior to performing inhalation. The respiratory therapist should",
 		options: {
 			A: "document that the education was effective.",
 			B: "re-instruct the patient to inhale immediately after actuation of the cannister.",
@@ -34,7 +34,7 @@ const quizData = [
 	},
 	{
 		question:
-			"In response to an Asthma action plan, the patient has attempted to contact their physician after determining peak flow measurement is less than 50% of the patient's usual baseline value. The physician is not responding to the call. According to NAEP guidelines, the patient should NEXT\n\n A. take a short-term bronchodilator, check peak flow in 1 hour\n B. take a corticosteroid inhaler and check again in 20 minutes\n C. take a short-term bronchodilator and contact a different physician\n D. report to the hospital or call an ambulance",
+			"In response to an Asthma action plan, the patient has attempted to contact their physician after determining peak flow measurement is less than 50% of the patient's usual baseline value. The physician is not responding to the call. According to NAEP guidelines, the patient should NEXT",
 		options: {
 			A: "take a short-term bronchodilator, check peak flow in 1 hour",
 			B: "take a corticosteroid inhaler and check again in 20 minutes",
@@ -47,7 +47,7 @@ const quizData = [
 	},
 	{
 		question:
-			"A patient is orally intubated with a 7.0-mm ET tube. Immediately following the procedure, the respiratory therapist will FIRST do which of the following to check for proper positioning of the airway?\n\n A. observe the color of the CO2 detector\n B. obtain a chest radiograph\n C. auscultate breath sounds\n D. palpate the trachea",
+			"A patient is orally intubated with a 7.0-mm ET tube. Immediately following the procedure, the respiratory therapist will FIRST do which of the following to check for proper positioning of the airway?",
 		options: {
 			A: "observe the color of the CO2 detector",
 			B: "obtain a chest radiograph",
@@ -60,7 +60,7 @@ const quizData = [
 	},
 	{
 		question:
-			"Which of the following indicate a patient is ready to wean from mechanical ventilation?\n\n A. A-aDO2 of 380 mmHg\n B. RSBI 138\n C. MIP of -12 cmH2O\n D. VT of 6 mL/kg",
+			"Which of the following indicate a patient is ready to wean from mechanical ventilation?",
 		options: {
 			A: "A-aDO2 of 380 mmHg",
 			B: "RSBI 138",
@@ -73,7 +73,7 @@ const quizData = [
 	},
 	{
 		question:
-			"A patient is receiving ventilatory support with CPAP of 5 cm H2O and PS of 10 cm H2O. The following data is observed:\nVt(spont) 180 mL RR 28/min HR 104/min \nMIP -22 cm H2O SpO2 0.95\nWhat should be recommended for this patient?\n\nA. increase CPAP to 7 cm H2O\n B. obtain ABGs, STAT\n C. implement invasive ventilation\n D. increase PS to 15 cm H2O",
+			"A patient is receiving ventilatory support with CPAP of 5 cm H2O and PS of 10 cm H2O. The following data is observed:\nVt(spont) 180 mL RR 28/min HR 104/min \nMIP -22 cm H2O SpO2 0.95\nWhat should be recommended for this patient?",
 		options: {
 			A: "increase CPAP to 7 cm H2O",
 			B: "obtain ABGs, STAT",
@@ -85,7 +85,7 @@ const quizData = [
 	},
 	{
 		question:
-			"A 12-year-old male patient easily accomplishes the volume on an incentive spirometer that he was able to reach prior to surgery. The respiratory therapist should\n\n A. increase the set volume.\n B. switch a flow-type spirometer.\n C. decrease the frequency of therapy.\n D. evaluate the need for continued therapy.",
+			"A 12-year-old male patient easily accomplishes the volume on an incentive spirometer that he was able to reach prior to surgery. The respiratory therapist should",
 		options: {
 			A: "increase the set volume.",
 			B: "switch a flow-type spirometer.",
@@ -98,7 +98,7 @@ const quizData = [
 	},
 	{
 		question:
-			"A respiratory therapist is having difficulty effectively removing secretions through endotracheal suctioning of a 7-year-old child with cystic fibrosis. The ET tube size is 6.0-mm. The suction pressures is set at 75 mmHg and the suction catheter size is an 8 Fr. The therapist should do which of the following to increase the efficacy of suctioning?\n\n A. increase suction during per pass\n B. increase suction pressure to 80 mmHg\n C. instill 20 cc of normal saline prior to each suction attempt\n D. increase catheter size to 10 Fr",
+			"A respiratory therapist is having difficulty effectively removing secretions through endotracheal suctioning of a 7-year-old child with cystic fibrosis. The ET tube size is 6.0-mm. The suction pressures is set at 75 mmHg and the suction catheter size is an 8 Fr. The therapist should do which of the following to increase the efficacy of suctioning?",
 		options: {
 			A: "increase suction during per pass",
 			B: "increase suction pressure to 80 mmHg",
@@ -111,7 +111,7 @@ const quizData = [
 	},
 	{
 		question:
-			"The physician has asked the respiratory therapist to help determine oxygen consumption by the tissues. The therapist should suggest evaluation of which of the following?\n\n A. CaO2\n B. CvO2\n C. PaO2\n D. C(a-v)O2",
+			"The physician has asked the respiratory therapist to help determine oxygen consumption by the tissues. The therapist should suggest evaluation of which of the following?",
 		options: {A: "CaO2", B: "CvO2", C: "PaO2", D: "C(a-v)O2"},
 		answer: "D",
 		answer_explanation:
@@ -119,7 +119,7 @@ const quizData = [
 	},
 	{
 		question:
-			"A 40-year-old female presents in the emergency room after being rescued from a building fire where she was found unconscious. Which of the following assessments would be most helpful in the evaluation of the patient?\n\n A. measurement of PaO2\n B. hemoximetry\n C. beside pulmonary function testing\n D. single-wavelength pulse oximetery",
+			"A 40-year-old female presents in the emergency room after being rescued from a building fire where she was found unconscious. Which of the following assessments would be most helpful in the evaluation of the patient?",
 		options: {
 			A: "measurement of PaO2",
 			B: "hemoximetry",
@@ -132,7 +132,7 @@ const quizData = [
 	},
 	{
 		question:
-			"After placing a patient on helium-oxygen therapy (60%/40%) by nonrebreather mask, the respiratory therapist notices a complete collapse of the attached reservoir with each breath initially. After a few moments, the reservoir bag begins to collapse only partially with each breath. The therapist should conclude\n\n A. the presence of CO2 overdose.\n B. a decrease in minute alveolar ventilation.\n C. inadequate ventilatory drive.\n D. a decrease in airway resistance.",
+			"After placing a patient on helium-oxygen therapy (60%/40%) by nonrebreather mask, the respiratory therapist notices a complete collapse of the attached reservoir with each breath initially. After a few moments, the reservoir bag begins to collapse only partially with each breath. The therapist should conclude",
 		options: {
 			A: "the presence of CO2 overdose.",
 			B: "a decrease in minute alveolar ventilation.",
@@ -144,7 +144,7 @@ const quizData = [
 	},
 	{
 		question:
-			"A COPD patient is being assess in the hospital for readiness to be discharged home. The respiratory therapist is in charge of establishing the appropriate oxygen flow rate by nasal cannula to be used at home. The patient maintains an SpO2 of 90% on 2 L/min at rest, and 86% during ambulation. Which of the following recommendation would be most appropriate?\n\n A. 2 L/min at rest, 3 L/min during exertion\n B. 2 L/min at all times\n C. 1 L/min at rest, 2 L/min during ambulation\n D. 1 L/min during sleep, 2 L/min all other times",
+			"A COPD patient is being assess in the hospital for readiness to be discharged home. The respiratory therapist is in charge of establishing the appropriate oxygen flow rate by nasal cannula to be used at home. The patient maintains an SpO2 of 90% on 2 L/min at rest, and 86% during ambulation. Which of the following recommendation would be most appropriate?",
 		options: {
 			A: "2 L/min at rest, 3 L/min during exertion",
 			B: "2 L/min at all times",
@@ -157,7 +157,7 @@ const quizData = [
 	},
 	{
 		question:
-			'A respiratory therapist is caring for a patient who has a sign posted outside their hospital room door that indicates, "Respiratory Isolation". The therapist should observe all of the following EXCEPT:\n\n A. Do not allow visitors to enter the room\n B. Use N95 respirator\n C. Universal precautions\n D. Patient should use a mask when visitors are present',
+			'A respiratory therapist is caring for a patient who has a sign posted outside their hospital room door that indicates, "Respiratory Isolation". The therapist should observe all of the following EXCEPT:',
 		options: {
 			A: "Do not allow visitors to enter the room",
 			B: "Use N95 respirator",
@@ -170,7 +170,7 @@ const quizData = [
 	},
 	{
 		question:
-			"Which of the following should be monitored for a ventilator-dependent newborn with IRDS?\n\n A. gas distribution (SBN2) in the lungs\n B. fluid input and output\n C. pH\n D. urine specific gravity",
+			"Which of the following should be monitored for a ventilator-dependent newborn with IRDS?",
 		options: {
 			A: "gas distribution (SBN2) in the lungs",
 			B: "fluid input and output",
@@ -183,7 +183,7 @@ const quizData = [
 	},
 	{
 		question:
-			"The respiratory therapist is preparing to administer bronchodilation medication by metered dose inhaler (MDI) to a patient with COPD. Prior to administration, the therapist checks the MDI canister to determine if any medication remains. To do this, the therapist should do which of the following?\n\n A. Discharge the canister and visually note the output\n B. Ask the patient how many doses have been taken\n C. Float the canister in the glass of water\n D. Tap on the canister, listen for a dull tone",
+			"The respiratory therapist is preparing to administer bronchodilation medication by metered dose inhaler (MDI) to a patient with COP",
 		options: {
 			A: "Prior to administration, the therapist checks the MDI canister to determine if any medication remains. To do this, the therapist should do which of the following?",
 			B: "Discharge the canister and visually note the output",
@@ -196,7 +196,7 @@ const quizData = [
 	},
 	{
 		question:
-			"Inhaled albuterol has which of the following most common side effects?\n\n A. increased mPAP\n B. nausea\n C. systemic hypotension\n D. tremors",
+			"Inhaled albuterol has which of the following most common side effects?",
 		options: {
 			A: "increased mPAP",
 			B: "nausea",
@@ -209,7 +209,7 @@ const quizData = [
 	},
 	{
 		question:
-			"Which of the following, if present, would suggest ventilatory instability in a patient suspected of opioid overdose?\n\n A. MEP of 50 cm H2O\n B. MIP of - 38 cm H2O\n C. VT of 3.5 mL/kg\n D. VC of 12 mL/kg",
+			"Which of the following, if present, would suggest ventilatory instability in a patient suspected of opioid overdose?",
 		options: {
 			A: "MEP of 50 cm H2O",
 			B: "MIP of - 38 cm H2O",
@@ -222,7 +222,7 @@ const quizData = [
 	},
 	{
 		question:
-			"A physician asks the respiratory therapist to evaluate the effectiveness of PEP therapy on a patient with cystic fibrosis. The therapist can conclude the therapy is effective if\n\n A. the patient develops rhonchi that clears with coughing\n B. increased oxygen saturation during treatment is noted\n C. increased inspiratory capacity is observed\n D. improved arterial blood gas values are observed",
+			"A physician asks the respiratory therapist to evaluate the effectiveness of PEP therapy on a patient with cystic fibrosis. The therapist can conclude the therapy is effective if",
 		options: {
 			A: "the patient develops rhonchi that clears with coughing",
 			B: "increased oxygen saturation during treatment is noted",
@@ -235,7 +235,7 @@ const quizData = [
 	},
 	{
 		question:
-			"A patient complains of recent flu-like symptoms and sluggish lower extremities. Which of the following monitoring techniques would be helpful to further assess the patient?\n\n A. MIP\n B. peak flow\n C. inspiratory capacity\n D. FEV1",
+			"A patient complains of recent flu-like symptoms and sluggish lower extremities. Which of the following monitoring techniques would be helpful to further assess the patient?",
 		options: {A: "MIP", B: "peak flow", C: "inspiratory capacity", D: "FEV1"},
 		answer: "A",
 		answer_explanation:
@@ -243,7 +243,7 @@ const quizData = [
 	},
 	{
 		question:
-			"A conscious patient has an appropriately sized oral pharyngeal airway in place. The patient repeatedly ejects the airway with his tongue and gags when the airway is replaced. Which of the following actions is appropriate?\n\n A. administer Pavulon\n B. secure the airway with cotton tape\n C. administer morphine sulfate\n D. discontinue use of the airway",
+			"A conscious patient has an appropriately sized oral pharyngeal airway in place. The patient repeatedly ejects the airway with his tongue and gags when the airway is replaced. Which of the following actions is appropriate?",
 		options: {
 			A: "administer Pavulon",
 			B: "secure the airway with cotton tape",
@@ -256,7 +256,7 @@ const quizData = [
 	},
 	{
 		question:
-			"A patient diagnosed with bronchiectasis, and who has a tracheostomy, has reported an increase in secretions and secretion thickness. A chest radiograph shows a cavitary disease. The patient is admitted. The respiratory therapist should recommend\n\n A. therapy focusing on airway clearance\n B. placing the patient in respiratory isolation\n C. bronchoscopy to clear secretions\n D. routine bronchodilator therapy",
+			"A patient diagnosed with bronchiectasis, and who has a tracheostomy, has reported an increase in secretions and secretion thickness. A chest radiograph shows a cavitary disease. The patient is admitted. The respiratory therapist should recommend",
 		options: {
 			A: "therapy focusing on airway clearance",
 			B: "placing the patient in respiratory isolation",
@@ -269,7 +269,7 @@ const quizData = [
 	},
 	{
 		question:
-			"Which of the following results should the respiratory therapist evaluate to determine the adequacy of oxygen transport on a patient who is diagnosed with carbon monoxide poisoning and is being treated with FIO2 of 1.0?\n\n A. oxygen consumption at the tissues\n B. arterial oxygen content\n C. cardiac output\n D. arterial-venous oxygen content difference",
+			"Which of the following results should the respiratory therapist evaluate to determine the adequacy of oxygen transport on a patient who is diagnosed with carbon monoxide poisoning and is being treated with FIO2 of 1.0?",
 		options: {
 			A: "oxygen consumption at the tissues",
 			B: "arterial oxygen content",
@@ -282,7 +282,7 @@ const quizData = [
 	},
 	{
 		question:
-			"A patient has a balloon-tipped, flow-directed catheter in place in the pulmonary artery. Which pressure can the respiratory therapist expect to obtain from the proximal lumen?\n\n A. CVP\n B. MAP\n C. PAP\n D. PCWP",
+			"A patient has a balloon-tipped, flow-directed catheter in place in the pulmonary artery. Which pressure can the respiratory therapist expect to obtain from the proximal lumen?",
 		options: {A: "CVP", B: "MAP", C: "PAP", D: "PCWP"},
 		answer: "A",
 		answer_explanation:
@@ -290,7 +290,7 @@ const quizData = [
 	},
 	{
 		question:
-			"A patient receiving volume-controlled ventilation weighs 75 kg (165 lb) and is 5 ft, 7 in (170 cm) tall and within ideal body weight. The following clinical data is available:\nMode SIMV Mandatory rate 12 Total rate 32 FIO2 0.40 \nVT 500 mL Exhaled minute volume 9.6 L pH 7.44 \nPaCO2 32 torr PaO2 97 torr HCO3- 22 mEq/L BE +1 mEq/L\nThe respiratory therapist should recommend which of the following changes?\n\n A. Reduce mandatory rate to 6\n B. Administer sedative medication\n C. Institute pressure support of 5 cm H2O\n D. Add inspiratory pause",
+			"A patient receiving volume-controlled ventilation weighs 75 kg (165 lb) and is 5 ft, 7 in (170 cm) tall and within ideal body weight. The following clinical data is available:\nMode SIMV Mandatory rate 12 Total rate 32 FIO2 0.40 \nVT 500 mL Exhaled minute volume 9.6 L pH 7.44 \nPaCO2 32 torr PaO2 97 torr HCO3- 22 mEq/L BE +1 mEq/L\nThe respiratory therapist should recommend which of the following changes?",
 		options: {
 			A: "Reduce mandatory rate to 6",
 			B: "Administer sedative medication",
@@ -303,7 +303,7 @@ const quizData = [
 	},
 	{
 		question:
-			"A patient with decreasing pulmonary compliance is receiving volume-controlled ventilation with an I:E ratio of 1:2. A chest radiograph shows increased atelectasis. Blood gases show signs of refractory hypoxemia. Which of the following is an appropriate change for this patient?\n\n A. decrease PEEP\n B. decrease inspiratory flow rate\n C. increase expiratory time\n D. increase inspiratory pressure limit",
+			"A patient with decreasing pulmonary compliance is receiving volume-controlled ventilation with an I:E ratio of 1:2. A chest radiograph shows increased atelectasis. Blood gases show signs of refractory hypoxemia. Which of the following is an appropriate change for this patient?",
 		options: {
 			A: "decrease PEEP",
 			B: "decrease inspiratory flow rate",
@@ -316,7 +316,7 @@ const quizData = [
 	},
 	{
 		question:
-			"A patient is being paralyzed and intubated in preparation to receive positive pressure ventilation with a volume-cycled ventilator in the control mode. Which of the following alarm settings is most important?\n\n A. low return-volume alarm\n B. low PEEP alarm\n C. low minute ventilation alarm\n D. high-pressure alarm",
+			"A patient is being paralyzed and intubated in preparation to receive positive pressure ventilation with a volume-cycled ventilator in the control mode. Which of the following alarm settings is most important?",
 		options: {
 			A: "low return-volume alarm",
 			B: "low PEEP alarm",
@@ -329,7 +329,7 @@ const quizData = [
 	},
 	{
 		question:
-			"A patient is receiving volume-controlled ventilation. Which of the following blood gas results is a clear indication for an increase in minute ventilation?\n\n A. pH 7.35, PaCO2 60 torr, PaO2 65 torr\n B. pH 7.55, PaCO2 26 torr, Pao2 88 torr\n C. pH 7.25, PaCO2 55 torr, PaO2 51 torr\n D. pH 7.50, PaCO2 30 torr, PaO2 82 torr",
+			"A patient is receiving volume-controlled ventilation. Which of the following blood gas results is a clear indication for an increase in minute ventilation?",
 		options: {
 			A: "pH 7.35, PaCO2 60 torr, PaO2 65 torr",
 			B: "pH 7.55, PaCO2 26 torr, Pao2 88 torr",
@@ -342,7 +342,7 @@ const quizData = [
 	},
 	{
 		question:
-			"A patient with COPD is found with shallow respirations and is disoriented to time and place. The patient is receiving oxygen by Venturi mask set at 45%. SpO2 is 99%. The therapist should first do which of the following?\n\n A. switch to a nasal cannula at 5 L/min\n B. institute mechanical ventilation\n C. switch to a nonrebreathing mask set at 12 L/min\n D. decrease FIO2 to 0.28",
+			"A patient with COPD is found with shallow respirations and is disoriented to time and place. The patient is receiving oxygen by Venturi mask set at 45%. SpO2 is 99%. The therapist should first do which of the following?",
 		options: {
 			A: "switch to a nasal cannula at 5 L/min",
 			B: "institute mechanical ventilation",
@@ -355,7 +355,7 @@ const quizData = [
 	},
 	{
 		question:
-			"Immediately following arterial blood extraction and the removal of the needle from a patient's radial artery, the respiratory therapist should first\n\n A. Label the syringe\n B. Place gauze on the site with a pressure bandage\n C. Discard the needle in a single entry biohazard device\n D. Compress the puncture site",
+			"Immediately following arterial blood extraction and the removal of the needle from a patient's radial artery, the respiratory therapist should first",
 		options: {
 			A: "Label the syringe",
 			B: "Place gauze on the site with a pressure bandage",
@@ -368,7 +368,7 @@ const quizData = [
 	},
 	{
 		question:
-			"A respiratory therapist notices the dicrotic notch is missing from the pulmonary artery catheter waveform. After unsuccessfully attempting to resolve the problem by aspiration, the therapist should\n\n A. withdraw the catheter\n B. advance the catheter\n C. rotate the catheter\n D. replace the catheter",
+			"A respiratory therapist notices the dicrotic notch is missing from the pulmonary artery catheter waveform. After unsuccessfully attempting to resolve the problem by aspiration, the therapist should",
 		options: {
 			A: "withdraw the catheter",
 			B: "advance the catheter",
@@ -381,7 +381,7 @@ const quizData = [
 	},
 	{
 		question:
-			"A respiratory therapist has been paged to the neonatal intensive care unit to assess an infant who is 38 weeks of gestation, delivered 3 hours prior. Which of the following would be appropriate to include in the assessment?\n\n A. Record of APGAR, at 1 and 5 minutes\n B. R/Q value\n C. symptoms\n D. oxygen index",
+			"A respiratory therapist has been paged to the neonatal intensive care unit to assess an infant who is 38 weeks of gestation, delivered 3 hours prior. Which of the following would be appropriate to include in the assessment?",
 		options: {
 			A: "Record of APGAR, at 1 and 5 minutes",
 			B: "R/Q value",
@@ -394,7 +394,7 @@ const quizData = [
 	},
 	{
 		question:
-			"The low exhaled volume alarm is sounding on a patient receiving volume controlled ventilation. Which of the following could correct the problem?\n\n A. drain excess water in the ventilator circuit\n B. suction the patient\n C. add air to the ET tube cuff\n D. check for a pneumothorax",
+			"The low exhaled volume alarm is sounding on a patient receiving volume controlled ventilation. Which of the following could correct the problem?",
 		options: {
 			A: "drain excess water in the ventilator circuit",
 			B: "suction the patient",
@@ -407,7 +407,7 @@ const quizData = [
 	},
 	{
 		question:
-			"A respiratory therapist is called to assist the intubation of a 44-year-old male in acute respiratory failure. Two intubation attempts have been unsuccessful and the patient is still alert and agitated. Which of the following pharmacological agents would best facilitate another intubation attempt?\n\n A. norephinephrine (Levophed)\n B. Crystodigin (digitalis)\n C. Ativan (lorazepam)\n D. Isordil",
+			"A respiratory therapist is called to assist the intubation of a 44-year-old male in acute respiratory failure. Two intubation attempts have been unsuccessful and the patient is still alert and agitated. Which of the following pharmacological agents would best facilitate another intubation attempt?",
 		options: {
 			A: "norephinephrine (Levophed)",
 			B: "Crystodigin (digitalis)",
@@ -420,7 +420,7 @@ const quizData = [
 	},
 	{
 		question:
-			"A 12-year-old patient is in the emergency department (ED) with severe bronchoconstriction. The patient has received 4 treatments with albuterol, 2 of them with Atrovent (ipratropium bromide), 13 grams of Solu-Medrol, and is currently receiving continuous albuterol at 8 mg/hr. The patient's peak flow remains less than 50% of predicted. What additional therapy may be helpful to the patient?\n\n A. helium-oxygen\n B. acetylcysteine\n C. dornase alpha (Pulmozyme)\n D. Spiriva (tiotropium bromide)",
+			"A 12-year-old patient is in the emergency department (ED) with severe bronchoconstriction. The patient has received 4 treatments with albuterol, 2 of them with Atrovent (ipratropium bromide), 13 grams of Solu-Medrol, and is currently receiving continuous albuterol at 8 mg/hr. The patient's peak flow remains less than 50% of predicted. What additional therapy may be helpful to the patient?",
 		options: {
 			A: "helium-oxygen",
 			B: "acetylcysteine",
@@ -433,7 +433,7 @@ const quizData = [
 	},
 	{
 		question:
-			"A patient does not receive a sufficient bronchodilation response when taking unit dose Albuterol every 4 hours. What can be done to enhance bronchodilation?\n\n A. double the dose of Albuterol every 4 hours\n B. add 1.0 cc of aqueous epinephrine to every other dose\n C. add ipratropium bromide (Atrovent) to every Albuterol treatment\n D. add ipratropium bromide (Atrovent) to every other dose",
+			"A patient does not receive a sufficient bronchodilation response when taking unit dose Albuterol every 4 hours. What can be done to enhance bronchodilation?",
 		options: {
 			A: "double the dose of Albuterol every 4 hours",
 			B: "add 1.0 cc of aqueous epinephrine to every other dose",
@@ -446,7 +446,7 @@ const quizData = [
 	},
 	{
 		question:
-			"A patient is receiving IPPB therapy by mouthpiece following abdominal surgery and is still somewhat lethargic from the anesthesia. During the treatment, the respiratory therapist notes the IPPB machine frequently fails to cycle into expiration. Which of the following should the therapist do to correct the problem?\n\n A. Increase the flow\n B. Increase the sensitivity\n C. Replace the mouthpiece with an inflatable mask\n D. Lower the pressure",
+			"A patient is receiving IPPB therapy by mouthpiece following abdominal surgery and is still somewhat lethargic from the anesthesia. During the treatment, the respiratory therapist notes the IPPB machine frequently fails to cycle into expiration. Which of the following should the therapist do to correct the problem?",
 		options: {
 			A: "Increase the flow",
 			B: "Increase the sensitivity",
@@ -459,7 +459,7 @@ const quizData = [
 	},
 	{
 		question:
-			"A patient in a current myasthenic crisis is being monitored every 2 hours. The most recent evaluation shows: \nMIP -29 cmH2O VC 1.35 L Vt 410 mL RR 24. \nThe respiratory therapist should recommend\n\n A. Administer Tensilon\n B. Continue to monitor the patient closely\n C. Intubate and initiate mechanical ventilatory support\n D. Begin incentive spirometry",
+			"A patient in a current myasthenic crisis is being monitored every 2 hours. The most recent evaluation shows: \nMIP -29 cmH2O VC 1.35 L Vt 410 mL RR 24. \nThe respiratory therapist should recommend",
 		options: {
 			A: "Administer Tensilon",
 			B: "Continue to monitor the patient closely",
@@ -472,14 +472,13 @@ const quizData = [
 	},
 	{
 		question:
-			"Which of the following would be increased in a patient with advanced COPD?\n\n A. FRC\n B. Fev1\n C. Fev1/FVC%\n D. FEF200-1200",
+			"Which of the following would be increased in a patient with advanced COPD?",
 		options: {A: "FRC", B: "Fev1", C: "Fev1/FVC%", D: "FEF200-1200"},
 		answer: "A",
 		answer_explanation: "FRC",
 	},
 	{
-		question:
-			"Which of the following is a determinant of Optimal PEEP level?\n\n A. consistent cardiac output with increasing plateau pressures\n B. decreasing dynamic complianc\n C. VD/VT\n D. RSBI",
+		question: "Which of the following is a determinant of Optimal PEEP level?",
 		options: {
 			A: "consistent cardiac output with increasing plateau pressures",
 			B: "decreasing dynamic complianc",
@@ -492,7 +491,7 @@ const quizData = [
 	},
 	{
 		question:
-			"A 32-year-old female has a large cancerous mass in the larynx and is having difficulty breathing. A flow-volume loop is rounded in appearance. To prevent ventilatory fatigue, the patient could benefit most from which immediate action?\n\n A. heliox therapy\n B. tracheostomy\n C. BiPAP\n D. laryngectomy",
+			"A 32-year-old female has a large cancerous mass in the larynx and is having difficulty breathing. A flow-volume loop is rounded in appearance. To prevent ventilatory fatigue, the patient could benefit most from which immediate action?",
 		options: {
 			A: "heliox therapy",
 			B: "tracheostomy",
@@ -505,7 +504,7 @@ const quizData = [
 	},
 	{
 		question:
-			"A patient is receiving 28% aerosol with the oxygen flow meter running at 6 L/min. What is the total flow of gas to the patient?\n\n A. 44 L/min\n B. 18 L/min\n C. 66 L/min\n D. 24 L/min",
+			"A patient is receiving 28% aerosol with the oxygen flow meter running at 6 L/min. What is the total flow of gas to the patient?",
 		options: {A: "44 L/min", B: "18 L/min", C: "66 L/min", D: "24 L/min"},
 		answer: "C",
 		answer_explanation:
@@ -513,7 +512,7 @@ const quizData = [
 	},
 	{
 		question:
-			"A patient is receiving volume-controlled ventilation. The ventilator settings and corresponding clinical data are as follows:\nMode Assist/control Mandatory rate 12 Total rate 18 \nFIO2 0.65 Pulse 102/min Blood pressure 135/76 mm Hg(stable) PAP 15 mm Hg C.O 5.3 L/min pH 7.50 PaCO2 30 torr \nPaO2 52 torr HCO3- 23 mEq/L BE -1 mEq/L\nThe respiratory therapist should recommend\n\n A. decrease mandatory rate to 10/min\n B. increase FIO2 0.70\n C. begin Bi-level therapy\n D. initiate PEEP at 5 cm H2O",
+			"A patient is receiving volume-controlled ventilation. The ventilator settings and corresponding clinical data are as follows:\nMode Assist/control Mandatory rate 12 Total rate 18 \nFIO2 0.65 Pulse 102/min Blood pressure 135/76 mm Hg(stable) PAP 15 mm HgPaO2 52 torr HCO3- 23 mEq/L BE -1 mEq/L\nThe respiratory therapist should recommend",
 		options: {
 			A: "decrease mandatory rate to 10/min",
 			B: "increase FIO2 0.70",
@@ -526,7 +525,7 @@ const quizData = [
 	},
 	{
 		question:
-			"Close observation of a patient's ventilator flow sheet reveals an increase in peak airway pressure of 10 cm H2O over the last 24 hours. Plateau pressure have increased by 5 cm H2O in that same time interval. What condition is present?\n\n A. decrease in dynamic compliance only\n B. increase in static compliance only\n C. decrease in static compliance only\n D. decreased dynamic and static compliance",
+			"Close observation of a patient's ventilator flow sheet reveals an increase in peak airway pressure of 10 cm H2O over the last 24 hours. Plateau pressure have increased by 5 cm H2O in that same time interval. What condition is present?",
 		options: {
 			A: "decrease in dynamic compliance only",
 			B: "increase in static compliance only",
@@ -538,7 +537,7 @@ const quizData = [
 	},
 	{
 		question:
-			"The respiratory therapist is asked to estimate the alveolar minute ventilation on a spontaneously breathing 68 kg (150 lb) female who is receiving oxygen therapy by air-entrainment mask at FIO2 0.50. The following data is available\nExhaled VT 450 mL mPAP 15 torr PaCO2 40 torr \nPaO2 70 torr Respiratory rate 12/min\nThe therapist should report an alveolar minute ventilation of:\n\n A. 4.6 L/min\n B. 12.0 L/min\n C. 3.6 L/min\n D. 5.4 L/min",
+			"The respiratory therapist is asked to estimate the alveolar minute ventilation on a spontaneously breathing 68 kg (150 lb) female who is receiving oxygen therapy by air-entrainment mask at FIO2 0.50. The following data is available\nExhaled VT 450 mL mPAP 15 torr PaCO2 40 torr \nPaO2 70 torr Respiratory rate 12/min\nThe therapist should report an alveolar minute ventilation of:",
 		options: {A: "4.6 L/min", B: "12.0 L/min", C: "3.6 L/min", D: "5.4 L/min"},
 		answer: "C",
 		answer_explanation:
@@ -546,7 +545,7 @@ const quizData = [
 	},
 	{
 		question:
-			"Which of the following would be used to lengthen the expiratory time and alter the I:E ratio for a patient receiving PEP therapy?\n\n A. injector line\n B. tidal volume control\n C. pressure control knob\n D. expiratory resistance valve",
+			"Which of the following would be used to lengthen the expiratory time and alter the I:E ratio for a patient receiving PEP therapy?",
 		options: {
 			A: "injector line",
 			B: "tidal volume control",
@@ -559,7 +558,7 @@ const quizData = [
 	},
 	{
 		question:
-			"A 75-kg (165 lb), 180-cm (5-ft, 11-in) patient with left-side heart failure is in the intensive care unit (ICU) receiving VC SIMV ventilation on the following settings:\nFIO2 0.65 Rate 14/min VT 550 mL PEEP 5 cm H2O Flow 40 L/min ABGs pH 7.48 PaCO2 33 torr PaO2 155 torr HCO3- 23 mEq/L BE +2 mEq/L HR 98/min SpO2 1.0 SvO2 0.74\nThe respiratory therapist should recommend\n\n A. decreasing FIO2 to 0.55.\n B. decreasing rate to 10/min.\n C. decreasing VT to 450 mL.\n D. discontinuing PEEP.",
+			"A 75-kg (165 lb), 180-cm (5-ft, 11-in) patient with left-side heart failure is in the intensive care unit (ICU) receiving VC SIMV ventilation on the following settings:\nFIO2 0.65 Rate 14/min VT 550 mL PEEP 5 cm H2O Flow 40 L/min ABGs pH 7.48 PaCO2 33 torr PaO2 155 torr HCO3- 23 mEq/L BE +2 mEq/L HR 98/min SpO2 1.0 SvO2 0.74\nThe respiratory therapist should recommend",
 		options: {
 			A: "decreasing FIO2 to 0.55.",
 			B: "decreasing rate to 10/min.",
@@ -572,7 +571,7 @@ const quizData = [
 	},
 	{
 		question:
-			"An infant with refractory hypoxemia is diagnosed with pulmonary hypertension. What would the respiratory therapist expect to provide for this patient?\n\n A. oxygen therapy\n B. mechanical ventilation\n C. heliox therapy\n D. nitric oxide",
+			"An infant with refractory hypoxemia is diagnosed with pulmonary hypertension. What would the respiratory therapist expect to provide for this patient?",
 		options: {
 			A: "oxygen therapy",
 			B: "mechanical ventilation",
@@ -585,7 +584,7 @@ const quizData = [
 	},
 	{
 		question:
-			"The following data is available on a 61-kg (135-lb) male patient receiving VC SIMV ventilation:\nVentilator settings: FIO2 0.45 VT 450 mL PEEP 4 cm H2O Mandatory rate 12/min\nABGs pH 7.41 PaCO2 39 mm Hg PaO2 85 mm Hg \nHCO3- 24 mEq/L BE 0 mEq/L\nIf PAO2 is determined to be 204 mm Hg, which of the following best represents the patient's condition?\n\n A. pulmonary hypertension\n B. pulmonary embolism\n C. V/Q mismatching\n D. venous admixture (shunting)",
+			"The following data is available on a 61-kg (135-lb) male patient receiving VC SIMV ventilation:\nVentilator settings: FIO2 0.45 VT 450 mL PEEP 4 cm H2O Mandatory rate 12/min\nABGs pH 7.41 PaCO2 39 mm Hg PaO2 85 mm Hg \nHCO3- 24 mEq/L BE 0 mEq/L\nIf PAO2 is determined to be 204 mm Hg, which of the following best represents the patient's condition?",
 		options: {
 			A: "pulmonary hypertension",
 			B: "pulmonary embolism",
@@ -598,7 +597,7 @@ const quizData = [
 	},
 	{
 		question:
-			"A respiratory therapist auscultates rhonchi over the left chest of a tracheostomy patient with left-sided pneumonia. Which of the following would be most beneficial for the bronchial hygiene of the patient?\n\n A. closed system suction catheter\n B. coude suction catheter\n C. mechanical precursor\n D. Mucomyst",
+			"A respiratory therapist auscultates rhonchi over the left chest of a tracheostomy patient with left-sided pneumonia. Which of the following would be most beneficial for the bronchial hygiene of the patient?",
 		options: {
 			A: "closed system suction catheter",
 			B: "coude suction catheter",
@@ -609,4 +608,5 @@ const quizData = [
 		answer_explanation:
 			"coude suction catheter\n\nIn theory, a straight suction catheter would ultimately advance into the right main stem bronchus if the catheter is inserted beyond the Carina. This is because the right lung bifurcates from the trachea at a less acute angle and therefore all objects that enter have a tendency to go into the right lung. To suction the left lung, a Coude suction catheter has a tip that is bent slightly. The purpose of this type suction catheter is to enter the left main stem bronchus and perform bronchial hygiene.",
 	},
+	{question: "", options: {}, answer: "[][][]", answer_explanation: "[][][]"},
 ]

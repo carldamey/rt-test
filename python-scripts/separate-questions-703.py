@@ -7,7 +7,7 @@ question_50_set = open("questions/question-exports/50-set.txt", "r").read()
 question_140_set = open("questions/question-exports/140-set.txt", "r").read()
 question_703_set = open("questions/question-exports/703-set.txt", "r").read()
 
-question_50_object = open("questions/question-objects/50-set.js", "w")
+question_703_object = open("questions/question-objects/703-set.js", "w")
 
 
 
@@ -108,7 +108,7 @@ def parse_question_and_answers(text):
         answer_separator_idx = question_text.find("!@#")
 
         # Extract the question and answer
-        question = re.sub(r"\s*[A-D]\.\s*.*?\n", "", question_text[:answer_separator_idx]).strip()
+        question = question_text[:answer_separator_idx].strip()
         answer_info = question_text[answer_separator_idx + 3:].strip()
 
         # Find the answer letter and explanation
@@ -140,18 +140,20 @@ def parse_question_and_answers(text):
         if "D" in question_data["options"]:
             question_data["options"]["D"] = question_data["options"]["D"][:-3]
 
-        if " D. " in question_data["question"]:
-            question_data["question"] = question_data["question"].split(" D. ", 1)[0]
+        # Another hacky solution, remove question options from question text
+        # if "\n A." in question_data["question"]:
+        #   question_data["question"] = question_data["question"].split("\n A.", 1)[0]
+
 
         quiz_data.append(question_data)
 
     return quiz_data
 
 # Parse the input text
-quiz_data = parse_question_and_answers(question_50_set)
+quiz_data = parse_question_and_answers(question_703_set)
 
 # Convert the quiz data to a JavaScript object
 javascript_object = "const quizData = " + repr(quiz_data) + ";"
 
 # print(javascript_object)
-question_50_object.write(javascript_object)
+question_703_object.write(javascript_object)
