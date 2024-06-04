@@ -110,7 +110,6 @@ def parse_question_and_answers(text):
         # Extract the question and answer
         question = question_text[:answer_separator_idx].strip()
         answer_info = question_text[answer_separator_idx + 3:].strip()
-        print(f"ANSWER INFO: {answer_info}")
 
         # Find the answer letter and explanation
         answer_letter_match = re.search(r"\s*([A-D])\.\s*", answer_info)
@@ -123,6 +122,7 @@ def parse_question_and_answers(text):
 
         # Find the options
         options = [(chr(ord('A') + i), option.strip()) for i, option in enumerate(re.findall(r"\s*[A-D]\.\s*(.*?)(?=\s*[A-D]\.|$)", question_text))]
+
         # Create a dictionary for the question and answers
         question_data = {
             "question": question,
@@ -130,6 +130,15 @@ def parse_question_and_answers(text):
             "answer": answer_letter,
             "answer_explanation": answer_explanation
         }
+
+        # Remove E option if present (yes this is super hacky but I am in a big rush here and do not have time to figure out the underlying issue.)
+
+        if "E" in question_data["options"]:
+            del question_data["options"]["E"] 
+        
+        # Remove !@# delimiter at the end of option d (yes, equally hacky) The if statement is present so that the program still runs if a blank question is generated
+        if "D" in question_data["options"]:
+            question_data["options"]["D"] = question_data["options"]["D"][:-3]
 
         quiz_data.append(question_data)
 

@@ -6,8 +6,7 @@ const quizData = [
 			A: "decrease pulmonary hypertension",
 			B: "bronchodilate large airways",
 			C: "decrease systemic vascular resistance (SVR)",
-			D: "improve cardiac contractility!@#",
-			E: "decrease pulmonary hypertension",
+			D: "improve cardiac contractility",
 		},
 		answer: "A",
 		answer_explanation: "decrease pulmonary hypertension",
@@ -15,7 +14,7 @@ const quizData = [
 	{
 		question:
 			"The respiratory therapist obtains the following blood gas data on a patient breathing spontaneously on room air:\npH 7.35 PaCO2 45 torr PaO2 50 torr HCO3- 27 mEq/L BE +2 mEq/L\nThe therapist could accurately estimate the patient's SaO2 to be which of the following?\n\n A. 75%\n B. 80%\n C. 85%\n D. 90%",
-		options: {A: "75%", B: "80%", C: "85%", D: "90%!@#"},
+		options: {A: "75%", B: "80%", C: "85%", D: "90%"},
 		answer: "B",
 		answer_explanation:
 			"80%\n\nA PaO2 of 50 mmHg most closely correlates with an oxygen saturation of about 80% on the oxygen dissociation curve.",
@@ -27,7 +26,7 @@ const quizData = [
 			A: "document that the education was effective.",
 			B: "re-instruct the patient to inhale immediately after actuation of the cannister.",
 			C: "instruct the patient to inhale while depressing the cannister.",
-			D: "remove the cannister and have the patient reattempt the dose delivery.!@#",
+			D: "remove the cannister and have the patient reattempt the dose delivery.",
 		},
 		answer: "B",
 		answer_explanation:
@@ -40,7 +39,7 @@ const quizData = [
 			A: "take a short-term bronchodilator, check peak flow in 1 hour",
 			B: "take a corticosteroid inhaler and check again in 20 minutes",
 			C: "take a short-term bronchodilator and contact a different physician",
-			D: "report to the hospital or call an ambulance!@#",
+			D: "report to the hospital or call an ambulance",
 		},
 		answer: "D",
 		answer_explanation:
@@ -53,7 +52,7 @@ const quizData = [
 			A: "observe the color of the CO2 detector",
 			B: "obtain a chest radiograph",
 			C: "auscultate breath sounds",
-			D: "palpate the trachea!@#",
+			D: "palpate the trachea",
 		},
 		answer: "A",
 		answer_explanation:
@@ -66,7 +65,7 @@ const quizData = [
 			A: "A-aDO2 of 380 mmHg",
 			B: "RSBI 138",
 			C: "MIP of -12 cmH2O",
-			D: "VT of 6 mL/kg!@#",
+			D: "VT of 6 mL/kg",
 		},
 		answer: "D",
 		answer_explanation:
@@ -79,8 +78,7 @@ const quizData = [
 			A: "increase CPAP to 7 cm H2O",
 			B: "obtain ABGs, STAT",
 			C: "implement invasive ventilation",
-			D: "increase PS to 15 cm H2O!@#",
-			E: "increase PS to 15 cm H2O",
+			D: "increase PS to 15 cm H2O",
 		},
 		answer: "D",
 		answer_explanation: "increase PS to 15 cm H2O",
@@ -92,7 +90,7 @@ const quizData = [
 			A: "increase the set volume.",
 			B: "switch a flow-type spirometer.",
 			C: "decrease the frequency of therapy.",
-			D: "evaluate the need for continued therapy.!@#",
+			D: "evaluate the need for continued therapy.",
 		},
 		answer: "D",
 		answer_explanation:
@@ -105,7 +103,7 @@ const quizData = [
 			A: "increase suction during per pass",
 			B: "increase suction pressure to 80 mmHg",
 			C: "instill 20 cc of normal saline prior to each suction attempt",
-			D: "increase catheter size to 10 Fr!@#",
+			D: "increase catheter size to 10 Fr",
 		},
 		answer: "B",
 		answer_explanation:
@@ -114,7 +112,7 @@ const quizData = [
 	{
 		question:
 			"The physician has asked the respiratory therapist to help determine oxygen consumption by the tissues. The therapist should suggest evaluation of which of the following?\n\n A. CaO2\n B. CvO2\n C. PaO2\n D. C(a-v)O2",
-		options: {A: "CaO2", B: "CvO2", C: "PaO2", D: "C(a-v)O2!@#"},
+		options: {A: "CaO2", B: "CvO2", C: "PaO2", D: "C(a-v)O2"},
 		answer: "D",
 		answer_explanation:
 			"C(a-v)O2\n\nOxygen available at the tissue level is best determined by examining the arterial oxygen content or CaO2. However, to determine how much oxygen the tissue is consuming we must look at both the CaO2 and the CVO2. This allows us to determine how much oxygen existed before the tissues and how much oxygen exists after the tissues. When we subtract one from the other we get the C(a-v)O2. This value is most closely related with oxygen consumption at the tissue level.",
@@ -126,7 +124,7 @@ const quizData = [
 			A: "measurement of PaO2",
 			B: "hemoximetry",
 			C: "beside pulmonary function testing",
-			D: "single-wavelength pulse oximetery!@#",
+			D: "single-wavelength pulse oximetery",
 		},
 		answer: "B",
 		answer_explanation:
@@ -139,8 +137,7 @@ const quizData = [
 			A: "the presence of CO2 overdose.",
 			B: "a decrease in minute alveolar ventilation.",
 			C: "inadequate ventilatory drive.",
-			D: "a decrease in airway resistance.!@#",
-			E: "a decrease in airway resistance.",
+			D: "a decrease in airway resistance.",
 		},
 		answer: "D",
 		answer_explanation: "a decrease in airway resistance.",
@@ -152,7 +149,7 @@ const quizData = [
 			A: "2 L/min at rest, 3 L/min during exertion",
 			B: "2 L/min at all times",
 			C: "1 L/min at rest, 2 L/min during ambulation",
-			D: "1 L/min during sleep, 2 L/min all other times!@#",
+			D: "1 L/min during sleep, 2 L/min all other times",
 		},
 		answer: "A",
 		answer_explanation:
@@ -165,7 +162,7 @@ const quizData = [
 			A: "Do not allow visitors to enter the room",
 			B: "Use N95 respirator",
 			C: "Universal precautions",
-			D: "Patient should use a mask when visitors are present!@#",
+			D: "Patient should use a mask when visitors are present",
 		},
 		answer: "A",
 		answer_explanation:
@@ -178,7 +175,7 @@ const quizData = [
 			A: "gas distribution (SBN2) in the lungs",
 			B: "fluid input and output",
 			C: "pH",
-			D: "urine specific gravity!@#",
+			D: "urine specific gravity",
 		},
 		answer: "B",
 		answer_explanation:
@@ -191,8 +188,7 @@ const quizData = [
 			A: "Prior to administration, the therapist checks the MDI canister to determine if any medication remains. To do this, the therapist should do which of the following?",
 			B: "Discharge the canister and visually note the output",
 			C: "Ask the patient how many doses have been taken",
-			D: "Float the canister in the glass of water",
-			E: "Tap on the canister, listen for a dull tone!@#",
+			D: "Float the canister in the glass of wa",
 		},
 		answer: "A",
 		answer_explanation:
@@ -205,7 +201,7 @@ const quizData = [
 			A: "increased mPAP",
 			B: "nausea",
 			C: "systemic hypotension",
-			D: "tremors!@#",
+			D: "tremors",
 		},
 		answer: "D",
 		answer_explanation:
@@ -218,7 +214,7 @@ const quizData = [
 			A: "MEP of 50 cm H2O",
 			B: "MIP of - 38 cm H2O",
 			C: "VT of 3.5 mL/kg",
-			D: "VC of 12 mL/kg!@#",
+			D: "VC of 12 mL/kg",
 		},
 		answer: "C",
 		answer_explanation:
@@ -231,7 +227,7 @@ const quizData = [
 			A: "the patient develops rhonchi that clears with coughing",
 			B: "increased oxygen saturation during treatment is noted",
 			C: "increased inspiratory capacity is observed",
-			D: "improved arterial blood gas values are observed!@#",
+			D: "improved arterial blood gas values are observed",
 		},
 		answer: "A",
 		answer_explanation:
@@ -240,12 +236,7 @@ const quizData = [
 	{
 		question:
 			"A patient complains of recent flu-like symptoms and sluggish lower extremities. Which of the following monitoring techniques would be helpful to further assess the patient?\n\n A. MIP\n B. peak flow\n C. inspiratory capacity\n D. FEV1",
-		options: {
-			A: "MIP",
-			B: "peak flow",
-			C: "inspiratory capacity",
-			D: "FEV1!@#",
-		},
+		options: {A: "MIP", B: "peak flow", C: "inspiratory capacity", D: "FEV1"},
 		answer: "A",
 		answer_explanation:
 			"MIP\n\nThe patient has preliminary sings of Guillain-Barre' Syndrome, which can eventually develop into an ascending paralysis that can ultimately cause the diaphragm to become disabled. Periodic checking of MIP will help to monitor the paralysis and failing ventilatory muscles.",
@@ -257,7 +248,7 @@ const quizData = [
 			A: "administer Pavulon",
 			B: "secure the airway with cotton tape",
 			C: "administer morphine sulfate",
-			D: "discontinue use of the airway!@#",
+			D: "discontinue use of the airway",
 		},
 		answer: "D",
 		answer_explanation:
@@ -270,7 +261,7 @@ const quizData = [
 			A: "therapy focusing on airway clearance",
 			B: "placing the patient in respiratory isolation",
 			C: "bronchoscopy to clear secretions",
-			D: "routine bronchodilator therapy!@#",
+			D: "routine bronchodilator therapy",
 		},
 		answer: "A",
 		answer_explanation:
@@ -283,7 +274,7 @@ const quizData = [
 			A: "oxygen consumption at the tissues",
 			B: "arterial oxygen content",
 			C: "cardiac output",
-			D: "arterial-venous oxygen content difference!@#",
+			D: "arterial-venous oxygen content difference",
 		},
 		answer: "B",
 		answer_explanation:
@@ -292,7 +283,7 @@ const quizData = [
 	{
 		question:
 			"A patient has a balloon-tipped, flow-directed catheter in place in the pulmonary artery. Which pressure can the respiratory therapist expect to obtain from the proximal lumen?\n\n A. CVP\n B. MAP\n C. PAP\n D. PCWP",
-		options: {A: "CVP", B: "MAP", C: "PAP", D: "PCWP!@#"},
+		options: {A: "CVP", B: "MAP", C: "PAP", D: "PCWP"},
 		answer: "A",
 		answer_explanation:
 			"CVP\n\nThe proximal lumen of a pulmonary artery catheter is situated inside or right before the right atrium. The value measured here is called CVP.",
@@ -304,7 +295,7 @@ const quizData = [
 			A: "Reduce mandatory rate to 6",
 			B: "Administer sedative medication",
 			C: "Institute pressure support of 5 cm H2O",
-			D: "Add inspiratory pause!@#",
+			D: "Add inspiratory pause",
 		},
 		answer: "C",
 		answer_explanation:
@@ -317,7 +308,7 @@ const quizData = [
 			A: "decrease PEEP",
 			B: "decrease inspiratory flow rate",
 			C: "increase expiratory time",
-			D: "increase inspiratory pressure limit!@#",
+			D: "increase inspiratory pressure limit",
 		},
 		answer: "B",
 		answer_explanation:
@@ -330,7 +321,7 @@ const quizData = [
 			A: "low return-volume alarm",
 			B: "low PEEP alarm",
 			C: "low minute ventilation alarm",
-			D: "high-pressure alarm!@#",
+			D: "high-pressure alarm",
 		},
 		answer: "B",
 		answer_explanation:
@@ -343,7 +334,7 @@ const quizData = [
 			A: "pH 7.35, PaCO2 60 torr, PaO2 65 torr",
 			B: "pH 7.55, PaCO2 26 torr, Pao2 88 torr",
 			C: "pH 7.25, PaCO2 55 torr, PaO2 51 torr",
-			D: "pH 7.50, PaCO2 30 torr, PaO2 82 torr!@#",
+			D: "pH 7.50, PaCO2 30 torr, PaO2 82 torr",
 		},
 		answer: "C",
 		answer_explanation:
@@ -356,7 +347,7 @@ const quizData = [
 			A: "switch to a nasal cannula at 5 L/min",
 			B: "institute mechanical ventilation",
 			C: "switch to a nonrebreathing mask set at 12 L/min",
-			D: "decrease FIO2 to 0.28!@#",
+			D: "decrease FIO2 to 0.28",
 		},
 		answer: "D",
 		answer_explanation:
@@ -369,7 +360,7 @@ const quizData = [
 			A: "Label the syringe",
 			B: "Place gauze on the site with a pressure bandage",
 			C: "Discard the needle in a single entry biohazard device",
-			D: "Compress the puncture site!@#",
+			D: "Compress the puncture site",
 		},
 		answer: "D",
 		answer_explanation:
@@ -382,7 +373,7 @@ const quizData = [
 			A: "withdraw the catheter",
 			B: "advance the catheter",
 			C: "rotate the catheter",
-			D: "replace the catheter!@#",
+			D: "replace the catheter",
 		},
 		answer: "C",
 		answer_explanation:
@@ -395,7 +386,7 @@ const quizData = [
 			A: "Record of APGAR, at 1 and 5 minutes",
 			B: "R/Q value",
 			C: "symptoms",
-			D: "oxygen index!@#",
+			D: "oxygen index",
 		},
 		answer: "A",
 		answer_explanation:
@@ -408,7 +399,7 @@ const quizData = [
 			A: "drain excess water in the ventilator circuit",
 			B: "suction the patient",
 			C: "add air to the ET tube cuff",
-			D: "check for a pneumothorax!@#",
+			D: "check for a pneumothorax",
 		},
 		answer: "C",
 		answer_explanation:
@@ -421,7 +412,7 @@ const quizData = [
 			A: "norephinephrine (Levophed)",
 			B: "Crystodigin (digitalis)",
 			C: "Ativan (lorazepam)",
-			D: "Isordil!@#",
+			D: "Isordil",
 		},
 		answer: "C",
 		answer_explanation:
@@ -434,7 +425,7 @@ const quizData = [
 			A: "helium-oxygen",
 			B: "acetylcysteine",
 			C: "dornase alpha (Pulmozyme)",
-			D: "Spiriva (tiotropium bromide)!@#",
+			D: "Spiriva (tiotropium bromide)",
 		},
 		answer: "A",
 		answer_explanation:
@@ -447,7 +438,7 @@ const quizData = [
 			A: "double the dose of Albuterol every 4 hours",
 			B: "add 1.0 cc of aqueous epinephrine to every other dose",
 			C: "add ipratropium bromide (Atrovent) to every Albuterol treatment",
-			D: "add ipratropium bromide (Atrovent) to every other dose!@#",
+			D: "add ipratropium bromide (Atrovent) to every other dose",
 		},
 		answer: "D",
 		answer_explanation:
@@ -460,7 +451,7 @@ const quizData = [
 			A: "Increase the flow",
 			B: "Increase the sensitivity",
 			C: "Replace the mouthpiece with an inflatable mask",
-			D: "Lower the pressure!@#",
+			D: "Lower the pressure",
 		},
 		answer: "C",
 		answer_explanation:
@@ -473,7 +464,7 @@ const quizData = [
 			A: "Administer Tensilon",
 			B: "Continue to monitor the patient closely",
 			C: "Intubate and initiate mechanical ventilatory support",
-			D: "Begin incentive spirometry!@#",
+			D: "Begin incentive spirometry",
 		},
 		answer: "B",
 		answer_explanation:
@@ -482,13 +473,7 @@ const quizData = [
 	{
 		question:
 			"Which of the following would be increased in a patient with advanced COPD?\n\n A. FRC\n B. Fev1\n C. Fev1/FVC%\n D. FEF200-1200",
-		options: {
-			A: "FRC",
-			B: "Fev1",
-			C: "Fev1/FVC%",
-			D: "FEF200-1200!@#",
-			E: "FRC",
-		},
+		options: {A: "FRC", B: "Fev1", C: "Fev1/FVC%", D: "FEF200-1200"},
 		answer: "A",
 		answer_explanation: "FRC",
 	},
@@ -499,7 +484,7 @@ const quizData = [
 			A: "consistent cardiac output with increasing plateau pressures",
 			B: "decreasing dynamic complianc",
 			C: "VD/VT",
-			D: "RSBI!@#",
+			D: "RSBI",
 		},
 		answer: "A",
 		answer_explanation:
@@ -512,7 +497,7 @@ const quizData = [
 			A: "heliox therapy",
 			B: "tracheostomy",
 			C: "BiPAP",
-			D: "laryngectomy!@#",
+			D: "laryngectomy",
 		},
 		answer: "A",
 		answer_explanation:
@@ -521,7 +506,7 @@ const quizData = [
 	{
 		question:
 			"A patient is receiving 28% aerosol with the oxygen flow meter running at 6 L/min. What is the total flow of gas to the patient?\n\n A. 44 L/min\n B. 18 L/min\n C. 66 L/min\n D. 24 L/min",
-		options: {A: "44 L/min", B: "18 L/min", C: "66 L/min", D: "24 L/min!@#"},
+		options: {A: "44 L/min", B: "18 L/min", C: "66 L/min", D: "24 L/min"},
 		answer: "C",
 		answer_explanation:
 			"66 L/min\n\nTo determine the answer to this question, one must have memorized the air-oxygen ratios. For 28%, the ratio is 10:1. This means that the Venturi mechanism will incorporate 10 parts air for every 1 part oxygen. One way to solve this problem is to add the ratio numbers together. (10+1= 11). Then, multiply that total by the indicated flow on the oxygen flow meter. In this case, we multiply 6 L per minute by 11. We get a total flow of 66 L/min.",
@@ -533,7 +518,7 @@ const quizData = [
 			A: "decrease mandatory rate to 10/min",
 			B: "increase FIO2 0.70",
 			C: "begin Bi-level therapy",
-			D: "initiate PEEP at 5 cm H2O!@#",
+			D: "initiate PEEP at 5 cm H2O",
 		},
 		answer: "D",
 		answer_explanation:
@@ -546,8 +531,7 @@ const quizData = [
 			A: "decrease in dynamic compliance only",
 			B: "increase in static compliance only",
 			C: "decrease in static compliance only",
-			D: "decreased dynamic and static compliance!@#",
-			E: "decreased dynamic and static compliance",
+			D: "decreased dynamic and static compliance",
 		},
 		answer: "D",
 		answer_explanation: "decreased dynamic and static compliance",
@@ -555,12 +539,7 @@ const quizData = [
 	{
 		question:
 			"The respiratory therapist is asked to estimate the alveolar minute ventilation on a spontaneously breathing 68 kg (150 lb) female who is receiving oxygen therapy by air-entrainment mask at FIO2 0.50. The following data is available\nExhaled VT 450 mL mPAP 15 torr PaCO2 40 torr \nPaO2 70 torr Respiratory rate 12/min\nThe therapist should report an alveolar minute ventilation of:\n\n A. 4.6 L/min\n B. 12.0 L/min\n C. 3.6 L/min\n D. 5.4 L/min",
-		options: {
-			A: "4.6 L/min",
-			B: "12.0 L/min",
-			C: "3.6 L/min",
-			D: "5.4 L/min!@#",
-		},
+		options: {A: "4.6 L/min", B: "12.0 L/min", C: "3.6 L/min", D: "5.4 L/min"},
 		answer: "C",
 		answer_explanation:
 			"3.6 L/min\n\nTo determine alveolar ventilation, dead space should be subtracted from each tidal volume. The amount of dead space per tidal volume is equivalent to 1 mL/lb of ideal body weight. In this case, the patient weighs 200 lbs and therefore has 150 mL of dead space for every inhaled tidal volume. The amount of gas that goes to the alveoli is, therefore, 300 mL per breath or 3.6 L per minute. This is calculated by subtracting 150 mL from 450 mL (the patient's VT) and then multiplying by the respiratory rate.",
@@ -572,7 +551,7 @@ const quizData = [
 			A: "injector line",
 			B: "tidal volume control",
 			C: "pressure control knob",
-			D: "expiratory resistance valve!@#",
+			D: "expiratory resistance valve",
 		},
 		answer: "D",
 		answer_explanation:
@@ -585,7 +564,7 @@ const quizData = [
 			A: "decreasing FIO2 to 0.55.",
 			B: "decreasing rate to 10/min.",
 			C: "decreasing VT to 450 mL.",
-			D: "discontinuing PEEP.!@#",
+			D: "discontinuing PEEP.",
 		},
 		answer: "A",
 		answer_explanation:
@@ -598,7 +577,7 @@ const quizData = [
 			A: "oxygen therapy",
 			B: "mechanical ventilation",
 			C: "heliox therapy",
-			D: "nitric oxide!@#",
+			D: "nitric oxide",
 		},
 		answer: "D",
 		answer_explanation:
@@ -611,7 +590,7 @@ const quizData = [
 			A: "pulmonary hypertension",
 			B: "pulmonary embolism",
 			C: "V/Q mismatching",
-			D: "venous admixture (shunting)!@#",
+			D: "venous admixture (shunting)",
 		},
 		answer: "C",
 		answer_explanation:
@@ -624,7 +603,7 @@ const quizData = [
 			A: "closed system suction catheter",
 			B: "coude suction catheter",
 			C: "mechanical precursor",
-			D: "Mucomyst!@#",
+			D: "Mucomyst",
 		},
 		answer: "B",
 		answer_explanation:
