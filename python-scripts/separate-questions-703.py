@@ -108,7 +108,7 @@ def parse_question_and_answers(text):
         answer_separator_idx = question_text.find("!@#")
 
         # Extract the question and answer
-        question = question_text[:answer_separator_idx].strip()
+        question = re.sub(r"\s*[A-D]\.\s*.*?\n", "", question_text[:answer_separator_idx]).strip()
         answer_info = question_text[answer_separator_idx + 3:].strip()
 
         # Find the answer letter and explanation
@@ -140,9 +140,13 @@ def parse_question_and_answers(text):
         if "D" in question_data["options"]:
             question_data["options"]["D"] = question_data["options"]["D"][:-3]
 
-        # Another hacky solution, remove question options from question text
-        # if "\n A." in question_data["question"]:
-        #   question_data["question"] = question_data["question"].split("\n A.", 1)[0]
+        # Remove "D" option from question text
+        if " D. " in question_data["question"]:
+            question_data["question"] = question_data["question"].split(" D. ", 1)[0]
+
+        # Remove "Explanation :" from explanation string
+        if "Explanation : " in question_data["answer_explanation"]:
+          question_data["answer_explanation"] = question_data["answer_explanation"].replace("Explanation : ", "")
 
 
         quiz_data.append(question_data)

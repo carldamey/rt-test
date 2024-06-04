@@ -140,6 +140,7 @@ def parse_question_and_answers(text):
         if "D" in question_data["options"]:
             question_data["options"]["D"] = question_data["options"]["D"][:-3]
 
+        # Remove "D" option from question text
         if " D. " in question_data["question"]:
             question_data["question"] = question_data["question"].split(" D. ", 1)[0]
 

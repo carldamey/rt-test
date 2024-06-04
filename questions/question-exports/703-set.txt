@@ -182,7 +182,7 @@ Secretions are best hydrated with heated humidity. This is especially true for p
  A. COHb determination from arterial blood
  B. multiple wave-length spectrophotometry
  C. blind oral intubation
- D. intubation with a bronchoscope!@#Patients who have had exposure to extremely heated air masses, such as seen with firefighters, are at risk for swelling of the tissues in the upper airways and ultimate loss of that airway. Priority, therefore, is to ensure an airway through intubation. However, blind intubation is extremely dangerous because probing those tissues with an endotracheal tube may incite additional inflammation and cause complete closure of the airway. Intubating with direct visualization is most appropriate. Usually, this means the use of a bronchoscope.)(*To calculate alveolar minute ventilation, the respiratory therapist should
+ D. intubation with a bronchoscope!@#D. Patients who have had exposure to extremely heated air masses, such as seen with firefighters, are at risk for swelling of the tissues in the upper airways and ultimate loss of that airway. Priority, therefore, is to ensure an airway through intubation. However, blind intubation is extremely dangerous because probing those tissues with an endotracheal tube may incite additional inflammation and cause complete closure of the airway. Intubating with direct visualization is most appropriate. Usually, this means the use of a bronchoscope.)(*To calculate alveolar minute ventilation, the respiratory therapist should
 
  A. measure while the patient is receiving mechanical ventilation.
  B. multiply the RR by the VT.
@@ -1242,7 +1242,7 @@ Normally gram-positive bacteria may be killed by penicillin-type antibiotics. Bu
 PAP 22 mm Hg 
 CVP 8 mm Hg
 PCWP 16 mm Hg
-C.O. 3.2 L
+CO 3.2 L
 
 Which of the following mostly likely represents the patient's condition?
 
@@ -1763,7 +1763,7 @@ When wheezing occurs over only one area or only over one lung, bronchoconstricti
  C. patient with a fractured ear drum
  D. patient with a history of gastric reflux!@#C. patient with a fractured ear drum
 
-A broken or fractured ear drum is a contraindication for vibratory PEP therapy.)(*Which of the following is most likely true for a patient whose hemodynamic values (mPAP, CVP, PCWP, and C.O.) are all low?
+A broken or fractured ear drum is a contraindication for vibratory PEP therapy.)(*Which of the following is most likely true for a patient whose hemodynamic values (mPAP, CVP, PCWP, and CO) are all low?
 
  A. The patient is in need of diuresis.
  B. The patient is in need of fluids.
@@ -1778,7 +1778,7 @@ A broken or fractured ear drum is a contraindication for vibratory PEP therapy.)
 Quality assurance should be done on pulmonary function equipment at least daily, prior to patient testing to ensure the equipment is functioning properly and within accuracy standards. Although calibration may be required in some cases, PFT equipment does not always require calibration. This is the purpose of quality assurance maneuvers prior to patient testing.)(*A patient with COPD is being instructed on the use of a metered dose inhaler (MDI). During instruction, the respiratory therapist notes that the patient is unable to coordinate the actuation of the inhaler with inhalation, despite repeated attempts at instruction. The therapist should recommend
 
  A. switching to a dry powder inhaler.
- B. switching to IPPB.
+ B. switching to IPPB
  C. instruction to the family member on proper administration
  D. use of a chamber.!@#D. use of a chamber.
 
@@ -1864,7 +1864,12 @@ The respiratory therapist should interpret these results as:
  C. marked apnea
  D. no true apnea present!@#D. no true apnea present
 
-Cessation of breathing in a newborn is somewhat normal in the first few days of life. This is because of the normal lack of neurological development at this stage of life. Consequently, periods less than 20 seconds are not considered true apnea. In this case, true apnea is not present.)(*After how many minutes can an ARDS patient by extubated?!@#30 mins of successful SBT
+Cessation of breathing in a newborn is somewhat normal in the first few days of life. This is because of the normal lack of neurological development at this stage of life. Consequently, periods less than 20 seconds are not considered true apnea. In this case, true apnea is not present.)(*After how many minutes can an ARDS patient by extubated?
+
+A. 10 mins of successful SBT
+B. 20 mins of successful SBT
+C. 30 mins of successful SBT
+D. 40 mins of successful SBT!@#C. 30 mins of successful SBT
 
 According to the ARDSnet protocol, a patient with ARDS undergoing SBT may be extubated after as little as 30 minutes of success. Thus, the patient can be extubated based on the current results.)(*Which of the following analyzers have a fuel cell that must be replaced when depleted?
 
@@ -1920,7 +1925,7 @@ Dynamic compliance = VT / (Peak px - PEEP) Dynamic compliance = 450 / 30 Dynamic
 CVP 10 mm Hg 
 mPAP 21 mm Hg
 PCWP 9 mm Hg
-C.O. 7 L/min
+CO 7 L/min
 
 
 The patient is not responding to IV medications. Which of the following medications could best help the patient?
@@ -1985,14 +1990,7 @@ The final metric associated with a 6MWT is distance. The exam is intended to eva
  C. ambulance
  D. fixed-wing aircraft!@#D. fixed-wing aircraft
 
-When needing to transport patient more than 150 miles, the most appropriate method of transport is a fixed-wing aircraft (an airplane).)(*What is the name of a waveform missing dicrotic notch 
-
-What causes pressure dampening!@#Pressure dampening
-
-Occlusion - fix by flushing catheter
-
-
-The PA waveform shown is conspicuously missing the dicrotic notch. This is called pressure dampening, which simply means the PA waveform is not as sensitive as it should be. The most likely cause of dampening is occlusion at the tip of the PA catheter. Occlusion can be caused by a clot or by proximal mucosal tissue. Flushing the catheter is a logical step in this case to alleviate pressure dampening.)(*The respiratory therapist has determined that a patient is developing autoPEEP. Which of the following settings, if increased, would reduce autoPEEP?
+When needing to transport patient more than 150 miles, the most appropriate method of transport is a fixed-wing aircraft (an airplane).)(*The respiratory therapist has determined that a patient is developing autoPEEP. Which of the following settings, if increased, would reduce autoPEEP?
  A. expiratory time
  B. peak flow rate
  C. PEEP
@@ -2204,7 +2202,7 @@ Liquid oxygen cannot stay in liquid form once at ambient pressures. Thus, no spe
  A. leads V3 and V4
  B. lead V5
  C. lead V2
- D.!@#B. lead V5
+ D. none of the above!@#B. lead V5
 
 The electrical tracing from chest lead V5 is most revealing of the left ventricle and the left heart in general.)(*According to the ARDSnet protocol, a central objective in treatment is to minimize further alveolar damage. This is accomplished by
 
@@ -2213,7 +2211,7 @@ The electrical tracing from chest lead V5 is most revealing of the left ventricl
  C. keeping tidal volumes low.
  D. keeping PaO2 values above 80 mmHg.!@#C. keeping tidal volumes low.
 
-The ARDSnet protocol includes keeping tidal volumes low to minimize alveolar wall stretch and the consequent potential injury.)(*how to fix auto peep!@#This can be remedied in several ways, including an increase in flow, a decrease in I:E ratio, an increase in expiratory time, or a decrease in rate.)(*A patient involved in a smoking cessation program has been receiving psychological counseling to help overcome the addiction. After several weeks of the program, the patient's COHb is 15%. Which of the following should the respiratory therapist recommend?
+The ARDSnet protocol includes keeping tidal volumes low to minimize alveolar wall stretch and the consequent potential injury.)(*A patient involved in a smoking cessation program has been receiving psychological counseling to help overcome the addiction. After several weeks of the program, the patient's COHb is 15%. Which of the following should the respiratory therapist recommend?
 
  A. continue current addiction recovery methods
  B. increased frequency of counseling
@@ -3137,7 +3135,7 @@ This data shows a steady arterial oxygenation level with a decreasing venous oxy
  A. elevated systolic BP, decreased diastolic BP
  B. elevated PCWP, decreased C.I.
  C. decrease in C(a-v)O2
- D. elevated CVP, decreased PAP, normal C.O.!@#B. elevated PCWP, decreased C.I.
+ D. elevated CVP, decreased PAP, normal CO!@#B. elevated PCWP, decreased C.I.
 
 As PEEP is increased, the patient is likely to experience decreased venous return and degradation in hemodynamic pressures. Of the options listed, an elevated PCWP in conjunction with a decreased cardiac index (which is another way of looking at cardiac output), is the most likely outcome. Additionally, an elevated pulmonary capillary wedge pressure in the presence of decreased cardiac output is indicative of our left heart problem. Although the actual source of the problem may not be the left cardiac muscle, excessive PEEP takes on this appearance.)(*A respiratory therapist has been ordered to alter the I:E ratio on a COPD patient. The current ratio is 1:2. The ordered ratio is 1:5. In completing this order, the therapist will have
  A. increased inspiratory time
@@ -4237,15 +4235,7 @@ Initial ventilation attempts after a patient has been apneic will show reduced e
  C. pressure
  D. PEEP!@#A. minute ventilation
 
-In this example we are tested about our knowledge to withdraw mechanical ventilation. While one may believe that low tidal volume could be the best answer, it is not as significant as the sum of several tidal volumes in a minute, or minute ventilation. While weaning, a patient may vary in VT, while maintaining an acceptable ventilatory drive. Pressures such as PEEP or low-pressure are not as critical for monitoring while weaning with slow incremental reductions of the mechanical rate.)(*A patient is receiving volume-controlled ventilation in the emergency department (ED). The following data is available:
-
-PetCO2 30 torr 
-pH 7.39
-PaCO2 40 torr
-PaO2 100 torr
-HCO3- 25 mEq/LBE +1 mEq/L!@#D. 25%
-
-VD/VT ratio calculation is (PaCO2-PetCO2)/PaCO2. In this case 40 -30 = 10. 10/40 = 25%)(*End-tidal CO2 of 40 mmHg with an arterial Co2 of about 40 is considered
+In this example we are tested about our knowledge to withdraw mechanical ventilation. While one may believe that low tidal volume could be the best answer, it is not as significant as the sum of several tidal volumes in a minute, or minute ventilation. While weaning, a patient may vary in VT, while maintaining an acceptable ventilatory drive. Pressures such as PEEP or low-pressure are not as critical for monitoring while weaning with slow incremental reductions of the mechanical rate.)(*End-tidal CO2 of 40 mmHg with an arterial Co2 of about 40 is considered
 
 A. hyperventilation
  B. normal ventilation
@@ -4303,28 +4293,7 @@ Alveolar ventilation is calculated by subtracting the anatomical dead space from
  C. bronchiectasis
  D. use of the antibiotic tetracycline!@#C. bronchiectasis
 
-Secretions that demonstrate differing layers of sputum is associated with bronchiectasis.)(*The following data is obtained from the patient's ventilator flow sheet:
-3 am: 
-Peak 20
-Plateau 14
-Vt .5
-PEEP 5
-
-9am:
-peak 21
-plateau 14
-vt 0.5
-peep 5
-
-3pm
-peak 25
-plateau 20
-vt 0.5
-peep 10
-
-Which of the following can be accurately stated?!@#B. dynamic compliance is steady
-
-Static compliance is monitored by examining the plateau pressures over time. Observation of these data appear to suggest an increase in plateau pressures, which is associated with a decrease in pulmonary compliance. However, closer observation reveals that PEEP was increased by 5 cm H2O. Therefore, the increase in plateau pressures at 3 PM are caused by an increase in the PEEP setting and are not a result of changing static compliance. This data indicates static compliance is remaining steady.)(*A morbidly obese patient who is trached with a fenestrated tracheostomy tube is experiencing frequent dislodging with minor movement or cough. What should the respiratory therapist suggest?
+Secretions that demonstrate differing layers of sputum is associated with bronchiectasis.)(*A morbidly obese patient who is trached with a fenestrated tracheostomy tube is experiencing frequent dislodging with minor movement or cough. What should the respiratory therapist suggest?
 
  A. Increase the length of the tracheostomy tube.
  B. Inflate the cuff.
@@ -4408,23 +4377,7 @@ The returned tidal volume will not always match the set tidal volume. In this ex
  A. 10 cc syringe
  B. normal saline
  C. Magill forceps
- D. anesthetic!@#C. Magill forceps)(*The following arterial blood gas results are obtained on a patient who has been on mechanical ventilation for 3 days.
-pH 7.55 
-PaCO2 40 torr
-PaO2 310 torr
-HCO3- 28 mEq/L
-BE -8 mEq/L
-FIO2 0.55
-SaO2 98%
-
-Ventilator settings are:
-Mode Assist/control Mandatory rate 12
-VT 550 mL
-FIO2 0.40
-
-The respiratory therapist should evaluate the function of which of the following in the blood gas analyzer?!@#B. Clark electrode
-
-This blood gas reveals a problem. The PaO2 of 310 torr would be impossible with an FIO2 of only 40%. We know this from estimating the alveolar oxygen tension or doing the alveolar air equation. At 40% the maximum oxygen tension in the alveoli is about 230 torr. It is impossible for the arterial oxygen tension to be greater than the alveolar oxygen tension. Therefore, there is likely an error in the measurement of the PaO2. Of the options given, the Clark electrode is another name for the PO2 electrode.)(*A COPD patient who receives 2 lpm continuous oxygen therapy by nasal cannula is exercising in conjunction with a monitored pulmonary rehabilitation program. The patient has begun breathing quickly and deeply. To ensure consistent arterial oxygenation, the respiratory therapist should
+ D. anesthetic!@#C. Magill forceps.)(*A COPD patient who receives 2 lpm continuous oxygen therapy by nasal cannula is exercising in conjunction with a monitored pulmonary rehabilitation program. The patient has begun breathing quickly and deeply. To ensure consistent arterial oxygenation, the respiratory therapist should
 
  A. decrease oxygen flow to 1 L/min
  B. use a partial rebreathing mask
@@ -5752,7 +5705,7 @@ In this example we have improperly functioning equipment. If given an option to 
  A. less than 1 hour
  B. 4 hours
  C. 6 hours
- D. 10 hours!@#Explanation : 
+ D. 10 hours!@#D. Explanation : 
 And H cylinder has a tank factor of 3.14. 3.14x1400 PSI = 4396 L. 4396 L / 7 L per minute = 628 min. 628 min./ 60 min.= 10.4 hours, or about 10 hours. When you get an answer that is not exact, pick the closest number possible. It is common on the exam not see the exact answer from your calculation. This is because the NBRC knows that you're estimating.)(*An air-entrainment jet nebulizer is set at 50%. The respiratory therapist analyzes the oxygen coming from the end of the tubing and finds it is 60%. Which of the following most likely explains this finding?
 
  A. excess water in the tubing
@@ -5993,10 +5946,10 @@ Fulminating pulmonary edema is a serious condition often resulting from left-sid
 Explanation : 
 Right-sided preload is another name for CVP (central venous pressure). Peripheral edema is one of the signs associated with right heart failure, which results in an elevated CVP with a normal or low pulmonary artery pressure (PAP), a.k.a. right ventricular afterload.)(*For a patient with severe mitral-valve stenosis, a balloon-tipped flow-directed pulmonary artery catheter would be associated with which of the following clinical data?
 
- A. PCWP 14 mm Hg and C.O. 4 L/M
+ A. PCWP 14 mm Hg and CO. 4 L/M
  B. CVP 9 mm Hg and PAP 9 mmHg
  C. PAP 19 mm Hg and PCWP 7 mmHg
- D. PAP 25/8 mmHg!@#A. PCWP 14 mm Hg and C.O. 4 L/M
+ D. PAP 25/8 mmHg!@#A. PCWP 14 mm Hg and CO. 4 L/M
 
 Explanation : 
 Mitral valve stenosis is a problem resulting from left heart failure. Problems in the left heart are manifested hemodynamically with high pulmonary capillary wedge pressure (PCWP) and low or normal cardiac output.)(*Which of the following conditions would benefit most from bronchoscopy?

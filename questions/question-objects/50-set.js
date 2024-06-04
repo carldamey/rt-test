@@ -608,5 +608,4 @@ const quizData = [
 		answer_explanation:
 			"coude suction catheter\n\nIn theory, a straight suction catheter would ultimately advance into the right main stem bronchus if the catheter is inserted beyond the Carina. This is because the right lung bifurcates from the trachea at a less acute angle and therefore all objects that enter have a tendency to go into the right lung. To suction the left lung, a Coude suction catheter has a tip that is bent slightly. The purpose of this type suction catheter is to enter the left main stem bronchus and perform bronchial hygiene.",
 	},
-	{question: "", options: {}, answer: "[][][]", answer_explanation: "[][][]"},
 ]
