@@ -1489,13 +1489,10 @@ const quizData = [
 			B: "arterial blood gas",
 			C: "prothrombin time",
 			D: "allergic response to Albuterol",
-			F: "ejection fraction",
-			G: "Fick",
-			H: "A-aDO2",
 		},
 		answer: "D",
 		answer_explanation:
-			"allergic response to Albuterol\n\nWhich of the following equations would help determine cardiac output?\n A. oxygen consumption\n B. ejection fraction\n C. Fick\n D. A-aDO2",
+			"allergic response to Albuterol"
 	},
 	{
 		question:
@@ -4495,10 +4492,9 @@ const quizData = [
 			"A patient undergoes a change in PEEP from 15 to 20 cm H2O. Which of the following would indicate an adverse reaction to the change in PEEP?",
 		options: {
 			A: "elevated systolic BP, decreased diastolic BP",
-			B: "elevated PCWP, decreased",
-			C: "I.",
-			D: "decrease in C(a-v",
-			F: "elevated PCWP, decreased",
+			B: "elevated PCWP, decreased CI",
+			C: "decrease in C(a-v)O2",
+			D: "elevated CVP, decreased PAP, normal CO!@#B. elevated PCWP, decreased CI",
 		},
 		answer: "B",
 		answer_explanation:

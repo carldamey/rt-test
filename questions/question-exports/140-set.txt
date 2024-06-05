@@ -337,8 +337,7 @@ Which of the following most likely represents the patient's condition?
  A. increase flow
  B. check for adequate mask seal
  C. continue current therapy
- D. switch to a Venturi mask at 50%!@#our answer was : A
-The correct answer is : A
+ D. switch to a Venturi mask at 50%!@#A.
  When a patient is receiving oxygen by non-rebreathing mask, they are drawing most of their breath from the reservoir bag. If the bag collapses completely during each breath, the flow to the bag is inadequate. The solution is to increase flow so that the reservoir bag collapses only partially with each breath. If the bag does not collapse at all it most likely means there is a poor seal between the patient and the mask. Another cause, however, could be that the flow is set too high.)(*A patient will be receiving short-term mechanical ventilatory support after surgery. Which of the following methods of humidification is appropriate?
  A. centrifugal nebulizer
  B. cool, passover humidification
@@ -408,7 +407,7 @@ The correct answer is : A
  A. decrease dosage to 0.31 mg
  B. switch to Atropine sulfate
  C. switch to Albuterol
- D. switch to cromolyn sodium (Intal)!@#The correct answer is : C
+ D. switch to cromolyn sodium (Intal)!@#TC.
  When the patient has an adverse reaction to a specific medication, the therapist must modify the therapy. Modifying therapy means to change to a different method or modality that accomplishes the same objective. In this case, switching to albuterol, which is another bronchodilator, is most appropriate. Decreasing the dose of Xopenex to 0.31 mg is inappropriate because that is a pediatric dose. Cromolyn sodium is not a bronchodilator and should specifically not be used when the patient has bronchoconstriction. Atropine sulfate, while it technically is a bronchodilator, is rarely used in this kind of situation.)(*An 84-kg (185-lb) 6-ft 1-in (185-cm) male is receiving mechanical ventilation by a volume-controlled ventilator in the assist/control mode on the following settings:
 Mandatory rate 16 VT 600 mLFIO2 0.5PEEP 10 cmH2O ABGs pH 7.46PaCO2 34 mmHgPO2 100 mmHgHCO3- 24 mEq/LBE 0 mEq/L
 Which of the following represents the most appropriate action?
@@ -499,14 +498,12 @@ The respiratory therapist should recommend which of the following changes?
  A. obtain a chest radiogram
  B. advance the endotracheal tube until chest movement is symmetrical
  C. withdraw the endotracheal tube by several centimeters
- D. perform diagnostic chest percussion bilaterally!@#ur answer was : B
-The correct answer is : C
+ D. perform diagnostic chest percussion bilaterally!@#C.
  A patient who is orally intubated should have endotracheal tube markings at the lip line that are in the low 20s. In this case, chest movement is asymmetrical, further evidence that the endotracheal tube is inserted too far. To correct this, the endotracheal tube should be withdrawn by several centimeters and an x-ray should be obtained to observe the exact loction of the tube.)(*The respiratory therapist working in a clinic receives a call from a patient who has asthma and is only able to achieve 75% of their normal baseline peak flow measurement. The therapist should advise the patient to
  A. take a rescue medication, check flows in one hour
  B. check flows again in one hour, call if less than 50%of expected
  C. take a rescue medication every 15 minutes for 2 hours, recheck flows
- D. call their doctor immediately!@#our answer was : D
-The correct answer is : A
+ D. call their doctor immediately!@#A.
  According to national asthma guidelines, a peak flow of 75% of baseline peak flow measurement is an indication to administer further rescue medication)(*A 45-year-old 74-kg (163-lb) adult female is receiving mechanical ventilatory support. Settings are as follows:
 Mode Assist/control Mandatory rate 12Total rate 16Tidal volume 400 mLFIO2 0.6PEEP 5 cm H2O
 The patient is appears to be anxious. SpO2 is 86%. The respiratory therapist will recommend which of the following?

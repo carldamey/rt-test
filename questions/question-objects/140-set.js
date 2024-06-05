@@ -202,7 +202,6 @@ const quizData = [
 			B: "Wheatstone bridge",
 			C: "respirometer",
 			D: "Geissler tube",
-			F: "A Collins water spirometer would also accomplish an SVC, but it is large equipment that is not transferable to bed side.",
 		},
 		answer: "C",
 		answer_explanation:
@@ -486,7 +485,7 @@ const quizData = [
 	{
 		question:
 			"Which of the following volumes is being observed when a patient is using a volume-type incentive spirometer?",
-		options: {A: "ERV", B: "IC", C: "TLC", D: "IRV", F: ""},
+		options: {A: "ERV", B: "IC", C: "TLC", D: "IRV"},
 		answer: "B",
 		answer_explanation:
 			"A volume type incentive spirometer measures inspiratory capacity or IC.",
@@ -659,8 +658,6 @@ const quizData = [
 			B: "determine FRC",
 			C: "quantify alveolar deadspace",
 			D: "determine alveolar diffusion capacity",
-			F: "On the NBRC exam the primary purpose of the helium dilution (and nitrogen washout) test is to determine FR",
-			G: "",
 		},
 		answer: "B",
 		answer_explanation:
@@ -770,9 +767,11 @@ const quizData = [
 			A: "increase flow",
 			B: "check for adequate mask seal",
 			C: "continue current therapy",
+			D: "switch to a Venturi mask at 50%",
 		},
-		answer: "[][][]",
-		answer_explanation: "[][][]",
+		answer: "A",
+		answer_explanation:
+			"When a patient is receiving oxygen by non-rebreathing mask, they are drawing most of their breath from the reservoir bag. If the bag collapses completely during each breath, the flow to the bag is inadequate. The solution is to increase flow so that the reservoir bag collapses only partially with each breath. If the bag does not collapse at all it most likely means there is a poor seal between the patient and the mask. Another cause, however, could be that the flow is set too high.",
 	},
 	{
 		question:
@@ -947,8 +946,9 @@ const quizData = [
 			C: "switch to Atropine sulfate",
 			D: "switch to Albute",
 		},
-		answer: "[][][]",
-		answer_explanation: "[][][]",
+		answer: "C",
+		answer_explanation:
+			"When the patient has an adverse reaction to a specific medication, the therapist must modify the therapy. Modifying therapy means to change to a different method or modality that accomplishes the same objective. In this case, switching to albuterol, which is another bronchodilator, is most appropriate. Decreasing the dose of Xopenex to 0.31 mg is inappropriate because that is a pediatric dose. Cromolyn sodium is not a bronchodilator and should specifically not be used when the patient has bronchoconstriction. Atropine sulfate, while it technically is a bronchodilator, is rarely used in this kind of situation.",
 	},
 	{
 		question:
@@ -984,7 +984,6 @@ const quizData = [
 			B: "TLC - FRC",
 			C: "TLC - VT - ERV",
 			D: "IRV - TLC - RV",
-			F: "",
 		},
 		answer: "B",
 		answer_explanation:
@@ -1156,9 +1155,11 @@ const quizData = [
 			A: "obtain a chest radiogram",
 			B: "advance the endotracheal tube until chest movement is symmetrical",
 			C: "withdraw the endotracheal tube by several centimeters",
+			D: "perform diagnostic chest percussion bilaterally",
 		},
-		answer: "[][][]",
-		answer_explanation: "[][][]",
+		answer: "C",
+		answer_explanation:
+			"A patient who is orally intubated should have endotracheal tube markings at the lip line that are in the low 20s. In this case, chest movement is asymmetrical, further evidence that the endotracheal tube is inserted too far. To correct this, the endotracheal tube should be withdrawn by several centimeters and an x-ray should be obtained to observe the exact loction of the tube.",
 	},
 	{
 		question:
@@ -1167,9 +1168,11 @@ const quizData = [
 			A: "take a rescue medication, check flows in one hour",
 			B: "check flows again in one hour, call if less than 50%of expected",
 			C: "take a rescue medication every 15 minutes for 2 hours, recheck flows",
+			D: "call their doctor immediately",
 		},
-		answer: "[][][]",
-		answer_explanation: "[][][]",
+		answer: "A",
+		answer_explanation:
+			"According to national asthma guidelines, a peak flow of 75% of baseline peak flow measurement is an indication to administer further rescue medication",
 	},
 	{
 		question:
@@ -1504,7 +1507,6 @@ const quizData = [
 			B: "pursed-lip breathing",
 			C: "serial coughing",
 			D: "autogenic drainage",
-			F: "",
 		},
 		answer: "B",
 		answer_explanation:
@@ -1570,7 +1572,6 @@ const quizData = [
 			B: "emphysema",
 			C: "chronic bronchitis",
 			D: "pulmonary fibrosis",
-			F: "To find the correct answer, one must pick the disease that is obstructive. In this question in, emphysema is the only obstructive disease offered.",
 		},
 		answer: "B",
 		answer_explanation:
@@ -1675,7 +1676,6 @@ const quizData = [
 			B: "severe restrictive disease",
 			C: "poor patient effort",
 			D: "moderate diffusion impairment",
-			F: "This is not normal. When a patient breathes out slowly they are able to exhale more fully. When the patient exhales forcefully turbulent airflow reduces the exhaled volume. Consequently, a SVC measurement should always be greater than a FVC on a given patient. When this is not the case it indicates poor patient effort and the slow vital capacity should be repeated.",
 		},
 		answer: "C",
 		answer_explanation:
