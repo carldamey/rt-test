@@ -1,4 +1,4 @@
-const questions = [
+const questionBank = [
 	{
 		question:
 			"The medication prostacyclin is used for which of the following purposes?",

@@ -10,24 +10,56 @@ const scoreHeader = document.getElementById("score-header")
 const retakeButton = document.getElementById("retake-button")
 
 let currentQuestion = 0
+let questionCount = 7
 const testQuestions = []
 const wrongQuestions = []
 
+function startTest() {
+	startDiv.hidden = true
+}
 
-
-testForm.addEventListener("submit", function(event) {
-  event.preventDefault()
-
-  const selectedAnswer = testForm.querySelector('input[name="test"]:checked');
-  if (selectedAnswer) {
-    alert(`You answered ${selectedAnswer.value}`)
-  } else if (!selectedAnswer) {
-    alert("Please select an answer")
+function getRandomUniqueQuestions(array, count) {
+  // Shuffle the array
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
   }
 
-  console.log(selectedAnswer)
+  // Slice the shuffled array to the desired length
+  return array.slice(0, count);
+}
+
+
+
+function nextQuestion() {
+  questions.shift()
+  currentQuestion ++
+  questionNumberHeader.innerText = `QUESTION ${currentQuestion} / ${questionCount}`
+  questionText.innerText = questions[0].question
+
+}
+
+
+// TODO PUT THIS WHERE IT BELONGS
+const questions = getRandomUniqueQuestions(questionBank, questionCount);
+
+
+testForm.addEventListener("submit", function (event) {
+	event.preventDefault()
+
+	const selectedAnswer = testForm.querySelector('input[name="test"]:checked')
+	if (selectedAnswer) {
+		alert(`You answered ${selectedAnswer.value}`)
+    nextQuestion()
+    selectedAnswer.checked = false
+	} else if (!selectedAnswer) {
+		alert("Please select an answer")
+	}
+
+	console.log(selectedAnswer)
 })
 
+// TODO PUT ELEMENTS IN PLACE SO THAT THE QUESTION SIZE ETC DOESNT MAKE THE BUTTONS MOVE AROUND
 
 // When start test is pressed
 
@@ -36,11 +68,6 @@ testForm.addEventListener("submit", function(event) {
 // Pick at random that many questions from the bank
 
 // Hide the start div
-
-
-
-
-
 
 // Unhide the test div
 
@@ -55,17 +82,13 @@ testForm.addEventListener("submit", function(event) {
 // If correct, remove the question from the array
 // If incorrect, add it to the incorrect questions array
 
-
-
-
-
 // Hide the test div
 
 // Unhide the post-test div
 
 // Display how many questions out of the total were correct, and a percentage
 
-// Display wrong questions in a printable format 
+// Display wrong questions in a printable format
 
 // Display retake wrong questions button
 // If pressed, testQuestions = a copy of wrong questions, wrong questions = []
