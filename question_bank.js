@@ -1,4 +1,4 @@
-const quizData = [
+const questions = [
 	{
 		question:
 			"The medication prostacyclin is used for which of the following purposes?",
@@ -11089,3 +11089,7 @@ const quizData = [
 			"Periodic chest radiograph\n\n\nOf the options offered, the purpose of an IPPB treatment is to prevent post-operative complications, including consolidation of sputum in the alveoli. Monitoring pre and post breath sounds and obtaining a periodic chest x-ray is most helpful in assessing the effectiveness of the IPPB therapy.",
 	},
 ]
+
+module.exports = {
+  questions
+}
