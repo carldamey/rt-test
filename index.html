@@ -9,29 +9,29 @@
 		<title>RT TEST</title>
 	</head>
 	<body>
-		<h1>RT TEST</h1>
 
 		<div id="start-div">
+				<h1>RT TEST</h1>
 				<input id="question-count-input" type="number" value="140" min="1" max="888"/>
 				<button id="start-button">START TEST</button>
 		</div>
 
-		<div id="test-div">
+		<div id="test-div" hidden>
 			<form id="test-form">
 				<h2 id="question-number-header">Question 1 / 12.</h2>
 				<br /><br />
 				<p id="question-text">oidfjoisadfjiosdafjosida kjhsakdjfhkjsadhfk ??</p>
 				<input type="radio" id="A" name="test" value="A" />
-				<label for="A">A</label><br />
+				<label for="A" id="a-label" >A</label><br />
 
 				<input type="radio" id="B" name="test" value="B" />
-				<label for="B">B</label><br />
+				<label for="B" id="b-label">B</label><br />
 
 				<input type="radio" id="C" name="test" value="C" />
-				<label for="C">C</label><br />
+				<label for="C" id="c-label">C</label><br />
 
 				<input type="radio" id="D" name="test" value="D" />
-				<label for="D">D</label><br />
+				<label for="D" id="d-label">D</label><br />
 
 				<input type="submit" value="Submit" />
 			</form>

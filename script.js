@@ -1,3 +1,4 @@
+// VARIABLES
 const startDiv = document.getElementById("start-div")
 const questionCountInput = document.getElementById("question-count-input")
 const startButton = document.getElementById("start-button")
@@ -8,56 +9,66 @@ const questionText = document.getElementById("question-text")
 const scoreDiv = document.getElementById("score-div")
 const scoreHeader = document.getElementById("score-header")
 const retakeButton = document.getElementById("retake-button")
+const ALabel = document.getElementById("a-label")
+const BLabel = document.getElementById("b-label")
+const CLabel = document.getElementById("c-label")
+const DLabel = document.getElementById("d-label")
 
 let currentQuestion = 0
-let questionCount = 7
+let questionCount = 0
 const testQuestions = []
 const wrongQuestions = []
 
-function startTest() {
-	startDiv.hidden = true
-}
+startDiv.hidden = false
+
+// FUNCTIONS
 
 function getRandomUniqueQuestions(array, count) {
-  // Shuffle the array
-  for (let i = array.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]];
-  }
+	// Shuffle the array
+	for (let i = array.length - 1; i > 0; i--) {
+		const j = Math.floor(Math.random() * (i + 1))
+		;[array[i], array[j]] = [array[j], array[i]]
+	}
 
-  // Slice the shuffled array to the desired length
-  return array.slice(0, count);
+	// Slice the shuffled array to the desired length
+	return array.slice(0, count)
 }
 
-
+function startTest() {
+	questionCount = questionCountInput.value
+	startDiv.hidden = true
+	testDiv.hidden = false
+	questions = getRandomUniqueQuestions(questionBank, questionCount)
+}
 
 function nextQuestion() {
-  questions.shift()
-  currentQuestion ++
-  questionNumberHeader.innerText = `QUESTION ${currentQuestion} / ${questionCount}`
-  questionText.innerText = questions[0].question
+	questions.shift()
+	currentQuestion++
+	questionNumberHeader.innerText = `QUESTION ${currentQuestion} / ${questionCount}`
+	questionText.innerText = questions[0].question
 
+  AAnswer.innerText = `A. ${questions[0].options.A}`
 }
 
-
-// TODO PUT THIS WHERE IT BELONGS
-const questions = getRandomUniqueQuestions(questionBank, questionCount);
-
-
+// EVENT LISTENERS
+// TODO MAKE THIS A FUNCTION
 testForm.addEventListener("submit", function (event) {
 	event.preventDefault()
 
 	const selectedAnswer = testForm.querySelector('input[name="test"]:checked')
 	if (selectedAnswer) {
 		alert(`You answered ${selectedAnswer.value}`)
-    nextQuestion()
-    selectedAnswer.checked = false
+    console.log(selectedAnswer)
+		nextQuestion()
+		selectedAnswer.checked = false
 	} else if (!selectedAnswer) {
 		alert("Please select an answer")
 	}
 
 	console.log(selectedAnswer)
 })
+
+startButton.addEventListener("click", startTest)
 
 // TODO PUT ELEMENTS IN PLACE SO THAT THE QUESTION SIZE ETC DOESNT MAKE THE BUTTONS MOVE AROUND
 
