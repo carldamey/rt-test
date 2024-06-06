@@ -78,6 +78,7 @@ function answerQuestion(answer) {
 	} else {
 		console.log("wrong")
 		wrongQuestions.push(questions[0])
+    wrongQuestions[wrongQuestions.length -1].userAnswer = answer
 	}
 }
 
@@ -90,6 +91,22 @@ function endTest() {
 	)}%)`
 	if (!wrongQuestions.length) wrongDiv.hidden = true
 	else wrongDiv.hidden = false
+}
+
+function populateIncorrectAnswers() {
+  wrongQuestions.forEach(wrongQuestion => {
+
+    // const text = document.createElement("p")
+    // text.innerText = wrongQuestion.question
+
+    // const userAnswer = document.createElement("p")
+    // userAnswer.innerText = wrongQuestion.userAnswer
+
+    const WrongQuestionElement  = document.createElement("div")
+    wrongQuestionElement.innerHTML = `<p>${wrongQuestion.question}/p><br><p>You answered: ${wrongQuestion.userAnswer}</p><br><p>The correct answer is: ${wrongQuestion.answer}</p><br><p>${wrongQuestion.answer_explanation}</p>` 
+
+    wrongDiv.appendChild(wrongQuestionElement)
+  })
 }
 
 // EVENT LISTENERS
