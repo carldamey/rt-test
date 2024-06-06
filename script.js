@@ -1,4 +1,13 @@
-const testSectionForm = document.getElementById("test-section")
+const startDiv = document.getElementById("start-div")
+const questionCountInput = document.getElementById("question-count-input")
+const startButton = document.getElementById("start-button")
+const testDiv = document.getElementById("test-div")
+const testForm = document.getElementById("test-form")
+const questionNumberHeader = document.getElementById("question-number-header")
+const questionText = document.getElementById("question-text")
+const scoreDiv = document.getElementById("score-div")
+const scoreHeader = document.getElementById("score-header")
+const retakeButton = document.getElementById("retake-button")
 
 let currentQuestion = 0
 const testQuestions = []
@@ -6,10 +15,17 @@ const wrongQuestions = []
 
 
 
-testSectionForm.addEventListener("submit", function(event) {
+testForm.addEventListener("submit", function(event) {
   event.preventDefault()
-  console.log("asdasdsad")
-  console.log(testSectionForm.value)
+
+  const selectedAnswer = testForm.querySelector('input[name="test"]:checked');
+  if (selectedAnswer) {
+    alert(`You answered ${selectedAnswer.value}`)
+  } else if (!selectedAnswer) {
+    alert("Please select an answer")
+  }
+
+  console.log(selectedAnswer)
 })
 
 
