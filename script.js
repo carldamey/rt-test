@@ -54,6 +54,7 @@ function retakeTest() {
 	wrongQuestions = []
 	scoreDiv.hidden = true
 	testDiv.hidden = false
+  nextQuestion()
 }
 
 function nextQuestion() {
@@ -61,7 +62,6 @@ function nextQuestion() {
 	if (questions.length < 1) {
 		endTest()
 	} else {
-		console.log(questions[0].question)
 		currentQuestion++
 		questionNumberHeader.innerText = `QUESTION ${currentQuestion} / ${questionCount}`
 		questionText.innerText = questions[0].question
@@ -74,9 +74,7 @@ function nextQuestion() {
 
 function answerQuestion(answer) {
 	if (questions[0].answer === answer) {
-		console.log("correct")
 	} else {
-		console.log("wrong")
 		wrongQuestions.push(questions[0])
     wrongQuestions[wrongQuestions.length -1].userAnswer = answer
 	}
@@ -97,25 +95,17 @@ function endTest() {
 }
 
 function populateIncorrectAnswers() {
-  console.log("called")
+  incorrectQuestions.innerHTML= ""
   wrongQuestions.forEach(wrongQuestion => {
-
-    // const text = document.createElement("p")
-    // text.innerText = wrongQuestion.question
-
-    // const userAnswer = document.createElement("p")
-    // userAnswer.innerText = wrongQuestion.userAnswer
 
     const wrongQuestionElement  = document.createElement("div")
     wrongQuestionElement.innerHTML = `<hr/><p>${wrongQuestion.question}<br><br>A. ${wrongQuestion.options.A}<br>B. ${wrongQuestion.options.B}<br>C. ${wrongQuestion.options.C}<br>D. ${wrongQuestion.options.D}</p><br><p>You answered: ${wrongQuestion.userAnswer}.<br></p><p>The correct answer is: ${wrongQuestion.answer}.</p><p>${wrongQuestion.answer_explanation.charAt(0).toUpperCase() + wrongQuestion.answer_explanation.slice(1)}</p>`
-    console.log(wrongQuestionElement)
 
     incorrectQuestions.appendChild(wrongQuestionElement)
   })
 }
 
 // EVENT LISTENERS
-// TODO MAKE THIS A FUNCTION
 testForm.addEventListener("submit", function (event) {
 	event.preventDefault()
 
@@ -132,39 +122,3 @@ testForm.addEventListener("submit", function (event) {
 startButton.addEventListener("click", startTest)
 
 retakeButton.addEventListener("click", retakeTest)
-
-// TODO PUT ELEMENTS IN PLACE SO THAT THE QUESTION SIZE ETC DOESNT MAKE THE BUTTONS MOVE AROUND
-
-// When start test is pressed
-
-// Get the amount of questions in the input field
-
-// Pick at random that many questions from the bank
-
-// Hide the start div
-
-// Unhide the test div
-
-// Display the question number out of the total questions in the question number header
-
-// Display the question content in the <p> tag underneath
-
-// Display the 4 available answers
-
-// When submitted, check the selected answer against the correct answer
-
-// If correct, remove the question from the array
-// If incorrect, add it to the incorrect questions array
-
-// Hide the test div
-
-// Unhide the post-test div
-
-// Display how many questions out of the total were correct, and a percentage
-
-// Display wrong questions in a printable format
-
-// Display retake wrong questions button
-// If pressed, testQuestions = a copy of wrong questions, wrong questions = []
-// Hide post-test div
-// Show test div
