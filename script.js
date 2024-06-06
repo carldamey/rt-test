@@ -90,10 +90,14 @@ function endTest() {
 		(rightQuestionCount / questionCount) * 100
 	)}%)`
 	if (!wrongQuestions.length) wrongDiv.hidden = true
-	else wrongDiv.hidden = false
+	else {
+    wrongDiv.hidden = false
+    populateIncorrectAnswers()
+  }
 }
 
 function populateIncorrectAnswers() {
+  console.log("called")
   wrongQuestions.forEach(wrongQuestion => {
 
     // const text = document.createElement("p")
@@ -102,10 +106,11 @@ function populateIncorrectAnswers() {
     // const userAnswer = document.createElement("p")
     // userAnswer.innerText = wrongQuestion.userAnswer
 
-    const WrongQuestionElement  = document.createElement("div")
-    wrongQuestionElement.innerHTML = `<p>${wrongQuestion.question}/p><br><p>You answered: ${wrongQuestion.userAnswer}</p><br><p>The correct answer is: ${wrongQuestion.answer}</p><br><p>${wrongQuestion.answer_explanation}</p>` 
+    const wrongQuestionElement  = document.createElement("div")
+    wrongQuestionElement.innerHTML = `<hr/><p>${wrongQuestion.question}</p><br><p>You answered: ${wrongQuestion.userAnswer}</p><p>The correct answer is: ${wrongQuestion.answer}</p><p>${wrongQuestion.answer_explanation}</p>`
+    console.log(wrongQuestionElement)
 
-    wrongDiv.appendChild(wrongQuestionElement)
+    incorrectQuestions.appendChild(wrongQuestionElement)
   })
 }
 
