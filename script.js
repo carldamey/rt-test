@@ -9,6 +9,7 @@ const questionText = document.getElementById("question-text")
 const scoreDiv = document.getElementById("score-div")
 const scoreHeader = document.getElementById("score-header")
 const wrongDiv = document.getElementById("wrong-div")
+incorrectQuestions = document.getElementById("incorrect-questions")
 const retakeButton = document.getElementById("retake-button")
 const ALabel = document.getElementById("a-label")
 const BLabel = document.getElementById("b-label")
@@ -17,8 +18,8 @@ const DLabel = document.getElementById("d-label")
 
 let currentQuestion = 0
 let questionCount = 0
-const testQuestions = []
-const wrongQuestions = []
+let testQuestions = []
+let wrongQuestions = []
 
 // FUNCTIONS
 
@@ -35,48 +36,60 @@ function getRandomUniqueQuestions(array, count) {
 
 function startTest() {
 	questionCount = questionCountInput.value
-	startDiv.hidden = true
-  scoreDiv.hidden = true
-  testDiv.hidden = false
-	questions = getRandomUniqueQuestions(questionBank, questionCount)
+	if (questionCount < 1 || questionCount > 888)
+		alert("Please enter a valid number of questions (1-888)")
+	else {
+		startDiv.hidden = true
+		scoreDiv.hidden = true
+		testDiv.hidden = false
+		questions = getRandomUniqueQuestions(questionBank, questionCount)
+		nextQuestion()
+	}
 }
 
 function retakeTest() {
-  questionCount = wrongQuestions.length
-  scoreDiv.hidden = true
-
+	questionCount = wrongQuestions.length
+	currentQuestion = 0
+	questions = [...wrongQuestions]
+	wrongQuestions = []
+	scoreDiv.hidden = true
+	testDiv.hidden = false
 }
 
 function nextQuestion() {
-	questions.shift()
-	currentQuestion++
-	questionNumberHeader.innerText = `QUESTION ${currentQuestion} / ${questionCount}`
-	questionText.innerText = questions[0].question
-
-	ALabel.innerText = `A. ${questions[0].options.A}`
-	BLabel.innerText = `B. ${questions[0].options.B}`
-	CLabel.innerText = `C. ${questions[0].options.C}`
-	DLabel.innerText = `D. ${questions[0].options.D}`
+	if (currentQuestion) questions.shift()
+	if (questions.length < 1) {
+		endTest()
+	} else {
+		console.log(questions[0].question)
+		currentQuestion++
+		questionNumberHeader.innerText = `QUESTION ${currentQuestion} / ${questionCount}`
+		questionText.innerText = questions[0].question
+		ALabel.innerText = `A. ${questions[0].options.A}`
+		BLabel.innerText = `B. ${questions[0].options.B}`
+		CLabel.innerText = `C. ${questions[0].options.C}`
+		DLabel.innerText = `D. ${questions[0].options.D}`
+	}
 }
 
 function answerQuestion(answer) {
-	if ((questions[0].answer === answer)) {
+	if (questions[0].answer === answer) {
 		console.log("correct")
 	} else {
 		console.log("wrong")
-    wrongQuestions.push(questions[0])
+		wrongQuestions.push(questions[0])
 	}
-  console.log(answer, questions[0].answer)
 }
 
 function endTest() {
-  testDiv.hidden = true
-  scoreDiv.hidden = false
-  const rightQuestionCount = questionCount - wrongQuestions.length
-  scoreHeader.innerText = `YOU SCORED: ${rightQuestionCount} / ${questionCount} (${Math.trunc((rightQuestionCount / questionCount) * 100) }%)`
-  if (!wrongQuestions.length) wrongDiv.hidden = true
-  else wrongDiv.hidden = false
-
+	testDiv.hidden = true
+	scoreDiv.hidden = false
+	const rightQuestionCount = questionCount - wrongQuestions.length
+	scoreHeader.innerText = `YOU SCORED: ${rightQuestionCount} / ${questionCount} (${Math.trunc(
+		(rightQuestionCount / questionCount) * 100
+	)}%)`
+	if (!wrongQuestions.length) wrongDiv.hidden = true
+	else wrongDiv.hidden = false
 }
 
 // EVENT LISTENERS
@@ -92,12 +105,11 @@ testForm.addEventListener("submit", function (event) {
 	} else if (!selectedAnswer) {
 		alert("Please select an answer.")
 	}
-  if (questions.length === 0) {
-    endTest()
-  } 
 })
 
 startButton.addEventListener("click", startTest)
+
+retakeButton.addEventListener("click", retakeTest)
 
 // TODO PUT ELEMENTS IN PLACE SO THAT THE QUESTION SIZE ETC DOESNT MAKE THE BUTTONS MOVE AROUND
 
