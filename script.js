@@ -19,8 +19,6 @@ let questionCount = 0
 const testQuestions = []
 const wrongQuestions = []
 
-startDiv.hidden = false
-
 // FUNCTIONS
 
 function getRandomUniqueQuestions(array, count) {
@@ -47,7 +45,27 @@ function nextQuestion() {
 	questionNumberHeader.innerText = `QUESTION ${currentQuestion} / ${questionCount}`
 	questionText.innerText = questions[0].question
 
-  AAnswer.innerText = `A. ${questions[0].options.A}`
+	ALabel.innerText = `A. ${questions[0].options.A}`
+	BLabel.innerText = `B. ${questions[0].options.B}`
+	CLabel.innerText = `C. ${questions[0].options.C}`
+	DLabel.innerText = `D. ${questions[0].options.D}`
+}
+
+function answerQuestion(answer) {
+	if ((questions[0].answer === answer)) {
+		console.log("correct")
+	} else {
+		console.log("wrong")
+    wrongQuestions.push(questions[0])
+	}
+  console.log(answer, questions[0].answer)
+}
+
+function endTest() {
+  testDiv.hidden = true
+  scoreDiv.hidden = false
+  const rightQuestionCount = questionCount - wrongQuestions.length
+  scoreHeader.innerText = `YOU SCORED: ${rightQuestionCount} / ${questionCount} (${Math.trunc((rightQuestionCount / questionCount) * 100) }%)`
 }
 
 // EVENT LISTENERS
@@ -57,15 +75,15 @@ testForm.addEventListener("submit", function (event) {
 
 	const selectedAnswer = testForm.querySelector('input[name="test"]:checked')
 	if (selectedAnswer) {
-		alert(`You answered ${selectedAnswer.value}`)
-    console.log(selectedAnswer)
+		answerQuestion(selectedAnswer.value)
 		nextQuestion()
 		selectedAnswer.checked = false
 	} else if (!selectedAnswer) {
-		alert("Please select an answer")
+		alert("Please select an answer.")
 	}
-
-	console.log(selectedAnswer)
+  if (questions.length === 0) {
+    endTest()
+  } 
 })
 
 startButton.addEventListener("click", startTest)
