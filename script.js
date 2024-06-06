@@ -8,6 +8,7 @@ const questionNumberHeader = document.getElementById("question-number-header")
 const questionText = document.getElementById("question-text")
 const scoreDiv = document.getElementById("score-div")
 const scoreHeader = document.getElementById("score-header")
+const wrongDiv = document.getElementById("wrong-div")
 const retakeButton = document.getElementById("retake-button")
 const ALabel = document.getElementById("a-label")
 const BLabel = document.getElementById("b-label")
@@ -35,8 +36,15 @@ function getRandomUniqueQuestions(array, count) {
 function startTest() {
 	questionCount = questionCountInput.value
 	startDiv.hidden = true
-	testDiv.hidden = false
+  scoreDiv.hidden = true
+  testDiv.hidden = false
 	questions = getRandomUniqueQuestions(questionBank, questionCount)
+}
+
+function retakeTest() {
+  questionCount = wrongQuestions.length
+  scoreDiv.hidden = true
+
 }
 
 function nextQuestion() {
@@ -66,6 +74,9 @@ function endTest() {
   scoreDiv.hidden = false
   const rightQuestionCount = questionCount - wrongQuestions.length
   scoreHeader.innerText = `YOU SCORED: ${rightQuestionCount} / ${questionCount} (${Math.trunc((rightQuestionCount / questionCount) * 100) }%)`
+  if (!wrongQuestions.length) wrongDiv.hidden = true
+  else wrongDiv.hidden = false
+
 }
 
 // EVENT LISTENERS
