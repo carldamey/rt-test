@@ -107,7 +107,7 @@ function populateIncorrectAnswers() {
     // userAnswer.innerText = wrongQuestion.userAnswer
 
     const wrongQuestionElement  = document.createElement("div")
-    wrongQuestionElement.innerHTML = `<hr/><p>${wrongQuestion.question}</p><br><p>You answered: ${wrongQuestion.userAnswer}</p><p>The correct answer is: ${wrongQuestion.answer}</p><p>${wrongQuestion.answer_explanation}</p>`
+    wrongQuestionElement.innerHTML = `<hr/><p>${wrongQuestion.question}<br><br>A. ${wrongQuestion.options.A}<br>B. ${wrongQuestion.options.B}<br>C. ${wrongQuestion.options.C}<br>D. ${wrongQuestion.options.D}</p><br><p>You answered: ${wrongQuestion.userAnswer}.<br></p><p>The correct answer is: ${wrongQuestion.answer}.</p><p>${wrongQuestion.answer_explanation.charAt(0).toUpperCase() + wrongQuestion.answer_explanation.slice(1)}</p>`
     console.log(wrongQuestionElement)
 
     incorrectQuestions.appendChild(wrongQuestionElement)
