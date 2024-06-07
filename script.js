@@ -9,7 +9,7 @@ const questionText = document.getElementById("question-text")
 const scoreDiv = document.getElementById("score-div")
 const scoreHeader = document.getElementById("score-header")
 const wrongDiv = document.getElementById("wrong-div")
-incorrectQuestions = document.getElementById("incorrect-questions")
+const incorrectQuestions = document.getElementById("incorrect-questions")
 const retakeButton = document.getElementById("retake-button")
 const ALabel = document.getElementById("a-label")
 const BLabel = document.getElementById("b-label")
@@ -36,8 +36,8 @@ function getRandomUniqueQuestions(array, count) {
 
 function startTest() {
 	questionCount = questionCountInput.value
-	if (questionCount < 1 || questionCount > 888)
-		alert("Please enter a valid number of questions (1-888)")
+	if (questionCount < 1 || questionCount > 887)
+		alert("Please enter a valid number of questions (1-887)")
 	else {
 		startDiv.hidden = true
 		scoreDiv.hidden = true

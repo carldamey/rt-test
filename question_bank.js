@@ -1548,12 +1548,12 @@ const questionBank = [
 	},
 	{
 		question:
-			"An adult patient with asthma is receiving Xopenex by small volume nebulizer T.I.",
+			"An adult patient with asthma is receiving Xopenex by small volume nebulizer T.I.D. at a dosage of 0.63 mg. The patient complains of dizziness, tingling in his fingers, and anxiety with each treatment. The therapist should",
 		options: {
-			A: "at a dosage of 0.63 mg. The patient complains of dizziness, tingling in his fingers, and anxiety with each treatment. The therapist should",
-			B: "decrease dosage to 0.31 mg",
-			C: "switch to Atropine sulfate",
-			D: "switch to Albute",
+			A: "dectease dosage to 0.31 mg",
+			B: "switch to Atropine sulfate",
+			C: "switch to Albuterol",
+			D: "switch to cromolyn sodium (Intal)",
 		},
 		answer: "C",
 		answer_explanation:
@@ -6786,19 +6786,6 @@ const questionBank = [
 	},
 	{
 		question:
-			"The following pressure-volume ventilator graphic is observed on a patient receiving VC A/C ventilation. The therapist should recommend\n\n(BIRD BEAK)",
-		options: {
-			A: "decrease the pressure limit",
-			B: "decrease in rate",
-			C: "decrease the tidal volume",
-			D: "decrease the minute ventilation",
-		},
-		answer: "C",
-		answer_explanation:
-			"decrease the tidal volume\n\nThe image shown here is a ventilator graphic that shows the relationship between the volume and the pressure. The presence of the small bird beak indicates that there is some level of pulmonary overdistension. This can be remedied by decreasing the tidal volume.",
-	},
-	{
-		question:
 			"The following is observed on a newborn 1 minute after delivery:\n\nColor: pink extremities, blue trunk \nReflex irritability: grimace\nMuscle tone: weak flexion\nHeart rate: 98/min\nRespiratory effort: weak cry\n\n\nWhat is the one-minute APGAR score",
 		options: {A: "5", B: "3", C: "4", D: "6"},
 		answer: "A",
@@ -6863,7 +6850,7 @@ const questionBank = [
 			A: "elevated systolic BP, decreased diastolic BP",
 			B: "elevated PCWP, decreased CI",
 			C: "decrease in C(a-v)O2",
-			D: "elevated CVP, decreased PAP, normal CO!@#B. elevated PCWP, decreased CI",
+			D: "elevated CVP, decreased PAP, normal CO",
 		},
 		answer: "B",
 		answer_explanation:
@@ -9141,12 +9128,12 @@ const questionBank = [
 	},
 	{
 		question:
-			"Using the formula for calculation of cardiac index, how would a morbidly obese patient's",
+			"Using the formula for calculation of cardiac index, how would a morbidly obese patient's C.I. compare to that of a person at ideal body weight?",
 		options: {
-			A: "I. compare to that of a person at ideal body weight?",
-			B: "cardiac index would be lower",
-			C: "cardiac index would remained unchanged",
-			D: "cardiac index would be hig",
+			A: "cardiac index would be lower",
+			B: "cardiac index would remained unchanged",
+			C: "cardiac index would be higher",
+			D: "cardiac index would be unpredictable",
 		},
 		answer: "A",
 		answer_explanation:
