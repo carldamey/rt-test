@@ -9,7 +9,9 @@ const questionText = document.getElementById("question-text")
 const scoreDiv = document.getElementById("score-div")
 const scoreHeader = document.getElementById("score-header")
 const wrongDiv = document.getElementById("wrong-div")
+const rightDiv = document.getElementById("right-div")
 const incorrectQuestions = document.getElementById("incorrect-questions")
+const correctQuestions = document.getElementById("correct-questions")
 const retakeButton = document.getElementById("retake-button")
 const ALabel = document.getElementById("a-label")
 const BLabel = document.getElementById("b-label")
@@ -20,6 +22,7 @@ let currentQuestion = 0
 let questionCount = 0
 let testQuestions = []
 let wrongQuestions = []
+let rightQuestions = []
 
 // FUNCTIONS
 
@@ -52,6 +55,7 @@ function retakeTest() {
 	currentQuestion = 0
 	questions = [...wrongQuestions]
 	wrongQuestions = []
+  rightQuestions = []
 	scoreDiv.hidden = true
 	testDiv.hidden = false
   nextQuestion()
@@ -74,6 +78,8 @@ function nextQuestion() {
 
 function answerQuestion(answer) {
 	if (questions[0].answer === answer) {
+    rightQuestions.push(questions[0])
+    console.log(rightQuestions)
 	} else {
 		wrongQuestions.push(questions[0])
     wrongQuestions[wrongQuestions.length -1].userAnswer = answer
@@ -92,6 +98,11 @@ function endTest() {
     wrongDiv.hidden = false
     populateIncorrectAnswers()
   }
+  if (!rightQuestions.length) rightDiv.hidden = true
+  else {
+    rightDiv.hidden = false
+    populateCorrectAnswers()
+  }
 }
 
 function populateIncorrectAnswers() {
@@ -102,6 +113,17 @@ function populateIncorrectAnswers() {
     wrongQuestionElement.innerHTML = `<hr/><p>${wrongQuestion.question}<br><br>A. ${wrongQuestion.options.A}<br>B. ${wrongQuestion.options.B}<br>C. ${wrongQuestion.options.C}<br>D. ${wrongQuestion.options.D}</p><br><p>You answered: ${wrongQuestion.userAnswer}.<br></p><p>The correct answer is: ${wrongQuestion.answer}.</p><p>${wrongQuestion.answer_explanation.charAt(0).toUpperCase() + wrongQuestion.answer_explanation.slice(1)}</p>`
 
     incorrectQuestions.appendChild(wrongQuestionElement)
+  })
+}
+
+function populateCorrectAnswers() {
+  correctQuestions.innerHTML = ""
+  rightQuestions.forEach(rightQuestion => {
+
+    const rightQuestionElement = document.createElement("div")
+    rightQuestionElement.innerHTML = `<hr/><p>${rightQuestion.question}<br><br>A. ${rightQuestion.options.A}<br>B. ${rightQuestion.options.B}<br>C. ${rightQuestion.options.C}<br>D. ${rightQuestion.options.D}</p><br><p>You correctly answered: ${rightQuestion.answer}.<br></p><p>${rightQuestion.answer_explanation.charAt(0).toUpperCase() + rightQuestion.answer_explanation.slice(1)}</p>`
+
+    correctQuestions.appendChild(rightQuestionElement)
   })
 }
 
