@@ -79,7 +79,6 @@ function nextQuestion() {
 function answerQuestion(answer) {
 	if (questions[0].answer === answer) {
     rightQuestions.push(questions[0])
-    console.log(rightQuestions)
 	} else {
 		wrongQuestions.push(questions[0])
     wrongQuestions[wrongQuestions.length -1].userAnswer = answer
