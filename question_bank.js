@@ -5021,19 +5021,6 @@ const questionBank = [
 	},
 	{
 		question:
-			"A patient has had 12-lead ECG testing once per week for three weeks. The last ECG shows the following tracing. What can be identified in this tracing?",
-		options: {
-			A: "bradycardia",
-			B: "cardiac ischemia",
-			C: "bi-Gemini",
-			D: "premature ventricular contraction (PVC)",
-		},
-		answer: "D",
-		answer_explanation:
-			"premature ventricular contraction (PVC)\n\nhe ECG demonstrates a PVC.",
-	},
-	{
-		question:
 			"A patient admitted with confirmed myasthenia gravis has a spontaneous VT of 350 mL and a VC of 1.9 L. Which of the following should be recommended?",
 		options: {
 			A: "administration of neostigmine",

@@ -37,7 +37,7 @@ function getRandomUniqueQuestions(array, count) {
 function startTest() {
 	questionCount = questionCountInput.value
 	if (questionCount < 1 || questionCount > 887)
-		alert("Please enter a valid number of questions (1-887)")
+		alert("Please enter a valid number of questions (1-886)")
 	else {
 		startDiv.hidden = true
 		scoreDiv.hidden = true

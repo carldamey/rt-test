@@ -3,20 +3,25 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="question_bank.js" defer></script>
+		<script src="question_bank.js" defer></script>
 		<script src="script.js" defer></script>
 		<link rel="stylesheet" href="styles.css" />
 		<title>RT PRACTICE EXAM</title>
 	</head>
 	<body>
-
 		<div id="start-div">
-				<h1>RT PRACTICE EXAM</h1>
-				<label>How many questions? </label>
-				<input id="question-count-input" type="number" value="140" min="1" max="887"/>
-				<label> (1 - 887) </label>
-				<br><br>
-				<button id="start-button">START TEST</button>
+			<h1>RT PRACTICE EXAM</h1>
+			<label>How many questions? </label>
+			<input
+				id="question-count-input"
+				type="number"
+				value="140"
+				min="1"
+				max="886"
+			/>
+			<label> (1 - 886) </label>
+			<br /><br />
+			<button id="start-button">START TEST</button>
 		</div>
 
 		<div id="test-div" hidden>
@@ -24,7 +29,7 @@
 				<h2 id="question-number-header">QUESTION NUMBER.</h2>
 				<p id="question-text">QUESTION TEXT</p>
 				<input type="radio" id="A" name="test" value="A" />
-				<label for="A" id="a-label" >A</label><br />
+				<label for="A" id="a-label">A</label><br />
 
 				<input type="radio" id="B" name="test" value="B" />
 				<label for="B" id="b-label">B</label><br />
@@ -33,7 +38,7 @@
 				<label for="C" id="c-label">C</label><br />
 
 				<input type="radio" id="D" name="test" value="D" />
-				<label for="D" id="d-label">D</label><br /><br>
+				<label for="D" id="d-label">D</label><br /><br />
 
 				<input type="submit" value="Submit" />
 			</form>
@@ -41,14 +46,13 @@
 
 		<div id="score-div" hidden>
 			<h1 id="score-header">SCORE</h1>
-			<br/>
+			<br />
 			<h3>Press Ctrl-P to Print or save this page as PDF</h3>
 			<div id="wrong-div">
 				<h2>You Missed These Questions:</h2>
-				<div id="incorrect-questions">
-
-				</div>
+				<div id="incorrect-questions"></div>
 				<button id="retake-button">Retake Only Incorrect Questions</button>
+				<div id="correct-questions"></div>
 			</div>
 		</div>
 	</body>
