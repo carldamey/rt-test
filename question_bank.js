@@ -6593,14 +6593,6 @@ const questionBank = [
 	},
 	{
 		question:
-			"What is the dynamic compliance in cm/H2O based on the following pressure-volume ventilator graphic?\n\n(NO FISH TAIL)",
-		options: {A: "24", B: "20", C: "15", D: "17"},
-		answer: "A",
-		answer_explanation:
-			"24\n\nTo determine dynamic compliance, tidal volume is divided by plateau pressure after subtracting any PEEP. In this case, the specific numbers are not provided directly. They must be extracted from the ventilator graphic itself. To determine volume, locate the highest level of the pressure-volume loop and then examine that level on the vertical volume axis. In this case, it shows to be 600 mL. To determine peak pressure, once again locate the top of the loop and proceed down toward the X axis to determine the peak pressure. This graph shows a peak pressure of 35 cm H2O. Finally, PEEP must be subtracted before the calculation can be done. To determine the level of PEEP, locate the farthest bottom or corner of the loop and examine the X axis. This graphic shows a PEEP of 5 cm/H2O. Therefore, 600 / (35-5) = 20 mL/cm H2O",
-	},
-	{
-		question:
 			"The parents of a 10-day old infant are reporting they feel their baby stops breathing sometimes when sleeping. The couple have lost a previous child to sudden infant death syndrome. Which of the following should the respiratory therapist recommend?",
 		options: {
 			A: "telling the parents that some apnea is normal for a 10-day-old infant",
@@ -10209,19 +10201,6 @@ const questionBank = [
 		answer: "D",
 		answer_explanation:
 			"increasing suction catheter size\n\n\nTo increase the effectiveness of suctioning, increasing suction catheter size, increasing suction pressure, and increasing duration are three methods that may be used. The most effective method is to increase the suction catheter size. However, caution must be used. The suction catheter size may not exceed half the diameter of the endotracheal tube. If the patient is already using a maximum suction catheter size than an increase in suction pressure is the next choice.",
-	},
-	{
-		question:
-			"A long-term care patient who experienced a stroke has left-sided paralysis about the face and mouth. The patient is unable to produce a seal with her lips while performing IPPB treatments. How would a respiratory therapist expect the IPPB machine to respond in this situation?",
-		options: {
-			A: "Deliver a higher FIO2",
-			B: "Fail to cycle into inhalation",
-			C: "Deliver a higher FIO2",
-			D: "Fail to cycle into exhalation",
-		},
-		answer: "C",
-		answer_explanation:
-			"Deliver a higher FIO2\n\n\nThe scenario suggests that a leak will occur when administering IPPB. Circuit leaks result in a failure to reach a preset pressure, which then results in failure to cycle into exhalation.",
 	},
 	{
 		question:
