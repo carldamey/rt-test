@@ -4377,14 +4377,14 @@ const questionBank = [
 		answer: "A",
 		answer_explanation: "in the pleural space.",
 	},
-	{
-		question:
-			"If the graphic shows a 'bump' during a rise in the flow rate which of the following should be adjusted, given the following ventilator graphic on a patient receiving VC A/C ventilation?",
-		options: {A: "VT", B: "PEEP", C: "frequency", D: "flow"},
-		answer: "D",
-		answer_explanation:
-			"flow\n\nThe small deflection shows the patient's inspiratory demand is greater than the flow rate. Flow should be increased so that the graphic shows a smooth rise to the peak flow setting.",
-	},
+	// {
+	// 	question:
+	// 		"If the graphic shows a 'bump' during a rise in the flow rate which of the following should be adjusted, given the following ventilator graphic on a patient receiving VC A/C ventilation?",
+	// 	options: {A: "VT", B: "PEEP", C: "frequency", D: "flow"},
+	// 	answer: "D",
+	// 	answer_explanation:
+	// 		"flow\n\nThe small deflection shows the patient's inspiratory demand is greater than the flow rate. Flow should be increased so that the graphic shows a smooth rise to the peak flow setting.",
+	// },
 	{
 		question:
 			"A 55-year-old, 95-kg (209-lb), 178 cm (5 ft 10 in) male is in a current state of ventilatory failure and requires mechanical ventilatory support. Which of the following settings are most appropriate?",
@@ -6263,19 +6263,19 @@ const questionBank = [
 		answer_explanation:
 			"atelectasis\n\nFine crackles heard about the bases of the pulmonary tree are most closely associated with atelectasis.",
 	},
-	{
-		question:
-			"An adult male patient receiving mechanical ventilatory support has the following pressure-volume graphics pre and post lung recruitment procedure. The respiratory therapist should conclude\n\n10 AM: (FISH TAIL AND BEAK)\n1 PM: (FISH TAIL)",
-		options: {
-			A: "tidal volume has inadvertently been increased",
-			B: "lung recruitment has been successful",
-			C: "further lung recruitment procedures should be placed on hold",
-			D: "autoPEEP level has decreased",
-		},
-		answer: "B",
-		answer_explanation:
-			"lung recruitment has been successful\n\nThe pressure-volume loops shown in this set of ventilator graphics shows that the patient was initially over distended. However, without intervention, the over distention spontaneously dissipates. This would suggest that the lungs have essentially increased in their capacity, or in other words, alveoli have been recruited.",
-	},
+	// {
+	// 	question:
+	// 		"An adult male patient receiving mechanical ventilatory support has the following pressure-volume graphics pre and post lung recruitment procedure. The respiratory therapist should conclude\n\n10 AM: (FISH TAIL AND BEAK)\n1 PM: (FISH TAIL)",
+	// 	options: {
+	// 		A: "tidal volume has inadvertently been increased",
+	// 		B: "lung recruitment has been successful",
+	// 		C: "further lung recruitment procedures should be placed on hold",
+	// 		D: "autoPEEP level has decreased",
+	// 	},
+	// 	answer: "B",
+	// 	answer_explanation:
+	// 		"lung recruitment has been successful\n\nThe pressure-volume loops shown in this set of ventilator graphics shows that the patient was initially over distended. However, without intervention, the over distention spontaneously dissipates. This would suggest that the lungs have essentially increased in their capacity, or in other words, alveoli have been recruited.",
+	// },
 	{
 		question:
 			"A 24-year-old firefighter is brought to the emergency department after being trapped for 10 minutes in a collapsed, burning building. The respiratory therapist notes marked inflammation around the face and oropharynx. Nasal hairs appear to be singed. The following arterial blood gas data is noted while the patient is breathing air:\n\npH 7.52 \nPaCO2 25 torr\nPaO2 102 torr\nHCO3- 23 mEq/L\nBE 0 mEq/L\n\n\nThe therapist should FIRST recommend which of the following?",
@@ -6770,19 +6770,19 @@ const questionBank = [
 		answer: "A",
 		answer_explanation: "5",
 	},
-	{
-		question:
-			"The following flow-time ventilator graphic data is observed. The therapist should suggest",
-		options: {
-			A: "increasing I:E ratio",
-			B: "pressure control ventilation",
-			C: "increasing inspiratory flow rate",
-			D: "inverse I:E ratio ventilation",
-		},
-		answer: "C",
-		answer_explanation:
-			"increasing inspiratory flow rate\n\nThe development of autoPEEP, which is shown in this graphic, is treated by allowing more time for expiration. This is most commonly is done by increasing the flow, thereby decreasing inspiratory time and lengthening expiratory time. Although not offered here, a decrease in mandatory rate is another method for decreasing autoPEEP.",
-	},
+	// {
+	// 	question:
+	// 		"The following flow-time ventilator graphic data is observed. The therapist should suggest",
+	// 	options: {
+	// 		A: "increasing I:E ratio",
+	// 		B: "pressure control ventilation",
+	// 		C: "increasing inspiratory flow rate",
+	// 		D: "inverse I:E ratio ventilation",
+	// 	},
+	// 	answer: "C",
+	// 	answer_explanation:
+	// 		"increasing inspiratory flow rate\n\nThe development of autoPEEP, which is shown in this graphic, is treated by allowing more time for expiration. This is most commonly is done by increasing the flow, thereby decreasing inspiratory time and lengthening expiratory time. Although not offered here, a decrease in mandatory rate is another method for decreasing autoPEEP.",
+	// },
 	{
 		question:
 			"A 65-year old male with COPD is brought to the emergency room (ER) from a local nursing facility in response to fever and apparent pulmonary congestion. The patient is receiving oxygen at 3 L/min NC and is not appropriately responsive to questioning. He continues to fall asleep. Arterial blood gases reveal\n\npH 7.30 \nPaCO2 66 torr\nPaO2 68 torrH\nCO3- 31 mEq/L\nBE -3 mEq/L\n\n\nThe respiratory therapist should recommend",
